@@ -1,0 +1,865 @@
+{
+  "project": "雨停之前的約定",
+  "status": "PASS_WITH_PLATFORM_AND_LISTENING_LIMITATIONS",
+  "report_generated_utc": "2026-10-05T00:00:38.311414+00:00",
+  "scope": "Independent non-mutating project QA. No story or game source changed by auditor. Test fixtures modify instantiated state in memory and use independent user data folders.",
+  "tested_fingerprints": {
+    "data/story.json": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416",
+    "data/art.json": "4fb714cfdeded74a61c8e09c7e262e2ac913474c8549c49851ff0a456b24a9d4",
+    "scripts/main.gd": "2a2a4f812f9a39ec75fd27ac39f68ea38461a67f561c87e9f3392b540f178628",
+    "project.godot": "5c1c758e4aa0cf7dc9856cc568fc87f9368277992224a62cb88f45e9a85fd6bf"
+  },
+  "summary": {
+    "story_nodes": 649,
+    "exhaustive_legal_complete_paths": 200,
+    "reachable_endings": 7,
+    "reachable_collectibles": 8,
+    "runtime_legal_witnesses": 15,
+    "independent_runtime_assertions": 4676,
+    "independent_runtime_failures": [],
+    "visible_portraits": 27,
+    "unique_background_images": 6,
+    "visible_CG_images": 6,
+    "runtime_audio_files": 8,
+    "supplemental_engineer_authored_checks_independently_rerun": 27,
+    "total_runtime_assertions_executed_on_final_source": 4703
+  },
+  "story_and_per_route_reading": {
+    "pass": true,
+    "errors": [],
+    "story_sha256": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416",
+    "nodes": 649,
+    "reachable_nodes": 649,
+    "expanded_node_visits_no_state_merging": 10755,
+    "complete_legal_paths": 200,
+    "endings": {
+      "xia_romance": {
+        "paths": 8,
+        "min_prose_unicode": 15503,
+        "max_prose_unicode": 15532,
+        "min_prose_han": 13922,
+        "max_prose_han": 13953,
+        "min_nodes": 281,
+        "max_nodes": 281,
+        "fast_estimate_minutes": 36.6,
+        "leisurely_estimate_minutes": 55.3
+      },
+      "xia_friendship": {
+        "paths": 56,
+        "min_prose_unicode": 15196,
+        "max_prose_unicode": 15491,
+        "min_prose_han": 13654,
+        "max_prose_han": 13928,
+        "min_nodes": 273,
+        "max_nodes": 281,
+        "fast_estimate_minutes": 35.9,
+        "leisurely_estimate_minutes": 55.2
+      },
+      "xu_romance": {
+        "paths": 8,
+        "min_prose_unicode": 17769,
+        "max_prose_unicode": 17798,
+        "min_prose_han": 15939,
+        "max_prose_han": 15970,
+        "min_nodes": 311,
+        "max_nodes": 311,
+        "fast_estimate_minutes": 41.4,
+        "leisurely_estimate_minutes": 62.8
+      },
+      "xu_friendship": {
+        "paths": 56,
+        "min_prose_unicode": 17679,
+        "max_prose_unicode": 17920,
+        "min_prose_han": 15866,
+        "max_prose_han": 16090,
+        "min_nodes": 308,
+        "max_nodes": 311,
+        "fast_estimate_minutes": 41.2,
+        "leisurely_estimate_minutes": 63.2
+      },
+      "song_romance": {
+        "paths": 8,
+        "min_prose_unicode": 15967,
+        "max_prose_unicode": 15996,
+        "min_prose_han": 14328,
+        "max_prose_han": 14359,
+        "min_nodes": 289,
+        "max_nodes": 289,
+        "fast_estimate_minutes": 37.9,
+        "leisurely_estimate_minutes": 57.1
+      },
+      "song_friendship": {
+        "paths": 56,
+        "min_prose_unicode": 15949,
+        "max_prose_unicode": 16094,
+        "min_prose_han": 14314,
+        "max_prose_han": 14446,
+        "min_nodes": 287,
+        "max_nodes": 290,
+        "fast_estimate_minutes": 37.8,
+        "leisurely_estimate_minutes": 57.4
+      },
+      "solo": {
+        "paths": 8,
+        "min_prose_unicode": 12063,
+        "max_prose_unicode": 12092,
+        "min_prose_han": 10832,
+        "max_prose_han": 10863,
+        "min_nodes": 207,
+        "max_nodes": 207,
+        "fast_estimate_minutes": 28.1,
+        "leisurely_estimate_minutes": 42.6
+      }
+    },
+    "collectibles_reachable": [
+      "card_clay",
+      "card_cloud",
+      "card_depart",
+      "card_empty",
+      "card_river",
+      "card_seat",
+      "card_stars",
+      "card_time"
+    ],
+    "visible_portraits": [
+      [
+        "song",
+        "action_determined"
+      ],
+      [
+        "song",
+        "action_neutral"
+      ],
+      [
+        "song",
+        "action_surprised"
+      ],
+      [
+        "song",
+        "seated_neutral"
+      ],
+      [
+        "song",
+        "seated_sad"
+      ],
+      [
+        "song",
+        "seated_smile"
+      ],
+      [
+        "song",
+        "standing_neutral"
+      ],
+      [
+        "song",
+        "standing_smile"
+      ],
+      [
+        "song",
+        "standing_thoughtful"
+      ],
+      [
+        "xia",
+        "action_determined"
+      ],
+      [
+        "xia",
+        "action_neutral"
+      ],
+      [
+        "xia",
+        "action_surprised"
+      ],
+      [
+        "xia",
+        "seated_neutral"
+      ],
+      [
+        "xia",
+        "seated_sad"
+      ],
+      [
+        "xia",
+        "seated_smile"
+      ],
+      [
+        "xia",
+        "standing_neutral"
+      ],
+      [
+        "xia",
+        "standing_smile"
+      ],
+      [
+        "xia",
+        "standing_thoughtful"
+      ],
+      [
+        "xu",
+        "action_determined"
+      ],
+      [
+        "xu",
+        "action_neutral"
+      ],
+      [
+        "xu",
+        "action_surprised"
+      ],
+      [
+        "xu",
+        "seated_neutral"
+      ],
+      [
+        "xu",
+        "seated_sad"
+      ],
+      [
+        "xu",
+        "seated_smile"
+      ],
+      [
+        "xu",
+        "standing_neutral"
+      ],
+      [
+        "xu",
+        "standing_smile"
+      ],
+      [
+        "xu",
+        "standing_thoughtful"
+      ]
+    ],
+    "background_keys": [
+      "cafe",
+      "gallery",
+      "hospital_exterior",
+      "museum",
+      "riverside",
+      "rooftop",
+      "station",
+      "workshop"
+    ],
+    "unique_background_files": [
+      "res://assets/backgrounds/cafe.jpg",
+      "res://assets/backgrounds/gallery.jpg",
+      "res://assets/backgrounds/museum.jpg",
+      "res://assets/backgrounds/riverside.jpg",
+      "res://assets/backgrounds/station.jpg",
+      "res://assets/backgrounds/workshop.jpg"
+    ],
+    "visible_cgs": [
+      "song_rooftop",
+      "song_station",
+      "xia_museum",
+      "xia_rooftop",
+      "xu_cafe",
+      "xu_workshop"
+    ],
+    "music_keys": [
+      "city",
+      "ending",
+      "reflection",
+      "warm"
+    ],
+    "branch_edges_exercised": 8,
+    "choice_edges_exercised": 29,
+    "all_assets_present": true,
+    "reading_estimate": "Per legal complete path: actual node prose Han count / 500 or 300 per minute + .025 minutes per node + .25 per choice. Does not sum mutually exclusive branches. Estimate, not measured play time; excludes optional gallery/backlog and displayed unchosen options."
+  },
+  "engine_synthetic_state_tests": {
+    "check_count": 35,
+    "checks": [
+      {
+        "name": "node effects apply first entry",
+        "pass": true
+      },
+      {
+        "name": "repeat render does not replay nonzero node effect",
+        "pass": true
+      },
+      {
+        "name": "save/load does not replay nonzero node effect",
+        "pass": true
+      },
+      {
+        "name": "requires flags and affection threshold inclusive",
+        "pass": true
+      },
+      {
+        "name": "requires rejects missing flag and low affection",
+        "pass": true
+      },
+      {
+        "name": "branches choose legal fallback",
+        "pass": true
+      },
+      {
+        "name": "unmet choices hidden and keyboard index mapped",
+        "pass": true
+      },
+      {
+        "name": "programmatic illegal choice rejected",
+        "pass": true
+      },
+      {
+        "name": "legal choice applies affection and flags",
+        "pass": true
+      },
+      {
+        "name": "repeated choice during cooldown cannot duplicate effects",
+        "pass": true
+      },
+      {
+        "name": "auto mode and all progression pause inside modal",
+        "pass": true
+      },
+      {
+        "name": "double modal close safe",
+        "pass": true
+      },
+      {
+        "name": "modal close debounce",
+        "pass": true
+      },
+      {
+        "name": "read-only skip stops on unread",
+        "pass": true
+      },
+      {
+        "name": "read-only skip advances already read node",
+        "pass": true
+      },
+      {
+        "name": "auto mode pauses on choices",
+        "pass": true
+      },
+      {
+        "name": "valid save accepted",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: <null>",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: []",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: {  }",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: 42",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: broken",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: { \"version\": 1, \"game\": \"rain-promises\", \"state\": { \"affection\": { \"song\": 0, \"xia\": 5, \"x",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: { \"version\": 2, \"game\": \"wrong-game\", \"state\": { \"affection\": { \"song\": 0, \"xia\": 5, \"xu\":",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected node",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected affection",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected history",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected visited",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected collections",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected flags",
+        "pass": true
+      },
+      {
+        "name": "invalid affection type rejected",
+        "pass": true
+      },
+      {
+        "name": "missing save preserves progress and reports error",
+        "pass": true
+      },
+      {
+        "name": "corrupt JSON save preserves progress and reports error",
+        "pass": true
+      },
+      {
+        "name": "new game resets route state",
+        "pass": true
+      },
+      {
+        "name": "title resets progression modes",
+        "pass": true
+      }
+    ],
+    "engine": "4.6.3-stable (official)",
+    "failures": [],
+    "passed": true,
+    "scope": "Independent runtime synthetic state tests; does not replace full story witnesses"
+  },
+  "legal_full_story_runtime": {
+    "actual_cgs_shown": 6,
+    "actual_portrait_states_shown": 27,
+    "checks": 4631,
+    "engine": "4.6.3-stable (official)",
+    "failures": [],
+    "limitation": "Headless engine test; texture loaded and UI visibility asserted, not GPU visual rendering.",
+    "pass": true,
+    "paths": [
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_friendship",
+        "nodes": 277
+      },
+      {
+        "ending": "xu_romance",
+        "nodes": 311
+      },
+      {
+        "ending": "xu_friendship",
+        "nodes": 308
+      },
+      {
+        "ending": "song_romance",
+        "nodes": 289
+      },
+      {
+        "ending": "song_friendship",
+        "nodes": 288
+      },
+      {
+        "ending": "solo",
+        "nodes": 207
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xu_romance",
+        "nodes": 311
+      },
+      {
+        "ending": "song_romance",
+        "nodes": 289
+      },
+      {
+        "ending": "solo",
+        "nodes": 207
+      }
+    ],
+    "textures_loaded": {
+      "backgrounds": 6,
+      "cg": 6,
+      "portraits": 27
+    }
+  },
+  "audio_runtime_wiring": {
+    "audio_listened": false,
+    "checks": [
+      {
+        "name": "music selected and looping city",
+        "pass": true
+      },
+      {
+        "name": "music selected and looping warm",
+        "pass": true
+      },
+      {
+        "name": "music selected and looping reflection",
+        "pass": true
+      },
+      {
+        "name": "music selected and looping ending",
+        "pass": true
+      },
+      {
+        "name": "rain selected and looping",
+        "pass": true
+      },
+      {
+        "name": "sfx runtime page",
+        "pass": true
+      },
+      {
+        "name": "sfx runtime ui",
+        "pass": true
+      },
+      {
+        "name": "sfx runtime camera",
+        "pass": true
+      },
+      {
+        "name": "mute switches actual master bus",
+        "pass": true
+      },
+      {
+        "name": "zero sliders silence all playback channels",
+        "pass": true
+      }
+    ],
+    "failures": [],
+    "note": "Headless stream resource/loop/volume wiring test only. Objective decode/peak analysis separately supplied; no listening claim.",
+    "pass": true,
+    "runtime_assets_selected": 8
+  },
+  "audio_integrity": {
+    "pass": true,
+    "assets": [
+      {
+        "id": "music_city",
+        "runtime_sha256": "e0237692fe4e169b15788445d81be702c94257e3dd7380e00e2ba856fe4846e0",
+        "manifest_sha256_matches": true,
+        "independent_ffmpeg_decode_pass": true,
+        "error": "",
+        "listened": false
+      },
+      {
+        "id": "music_warm",
+        "runtime_sha256": "da816423608a0f55a4a0dd4b442c1f3d71675667cb2005adc3206521d4cd4d17",
+        "manifest_sha256_matches": true,
+        "independent_ffmpeg_decode_pass": true,
+        "error": "",
+        "listened": false
+      },
+      {
+        "id": "music_reflection",
+        "runtime_sha256": "8e261a3f998a953c64adad5802dbce9d7dcced5f5a8e1dd188c79bd45090cc23",
+        "manifest_sha256_matches": true,
+        "independent_ffmpeg_decode_pass": true,
+        "error": "",
+        "listened": false
+      },
+      {
+        "id": "music_ending",
+        "runtime_sha256": "75c37f184762c8ba1446ad948294cd0557a289b16005ece56c18e2d9e7b2dd98",
+        "manifest_sha256_matches": true,
+        "independent_ffmpeg_decode_pass": true,
+        "error": "",
+        "listened": false
+      },
+      {
+        "id": "ambience_rain",
+        "runtime_sha256": "56304d265bad3f14b098577cc3a9f05eca79bd467935a90b91a9c81d2b7f0f3c",
+        "manifest_sha256_matches": true,
+        "independent_ffmpeg_decode_pass": true,
+        "error": "",
+        "listened": false
+      },
+      {
+        "id": "sfx_page",
+        "runtime_sha256": "8500555d2c359186c90ac639259e264aaa9e05a6ddd4fdb1bd0ead8248739fe8",
+        "manifest_sha256_matches": true,
+        "independent_ffmpeg_decode_pass": true,
+        "error": "",
+        "listened": false
+      },
+      {
+        "id": "sfx_camera",
+        "runtime_sha256": "522b8fc3c60104d94275e24d5675b9a39d1e48d2375d8e29752fdb9edfa9f3c8",
+        "manifest_sha256_matches": true,
+        "independent_ffmpeg_decode_pass": true,
+        "error": "",
+        "listened": false
+      },
+      {
+        "id": "sfx_ui",
+        "runtime_sha256": "5dbe5377fb9e5dfdb767309f6c086afc680b979684c10c3df2096c5d1bea473b",
+        "manifest_sha256_matches": true,
+        "independent_ffmpeg_decode_pass": true,
+        "error": "",
+        "listened": false
+      }
+    ]
+  },
+  "objective_audio_analysis": {
+    "source": "provenance/audio/validation.json",
+    "result": {
+      "passed": true,
+      "method": "FFmpeg decode, samples and channels, finite values, clipping/4x true peak, source and decoded loop endpoint delta, size and correlation. Numerical QA only; not listened.",
+      "results": [
+        {
+          "id": "music_city",
+          "codec": "vorbis",
+          "decoded_samples": 3024000,
+          "decoded_peak_dbfs": -4.33,
+          "decoded_true_peak_dbfs": -4.32,
+          "decoded_rms_dbfs": -17.44,
+          "decoded_boundary_delta": 0.0010595,
+          "source_boundary_delta": 0.0,
+          "no_clipping": true,
+          "runtime_bytes": 1095184,
+          "stereo_correlation": 0.9292,
+          "loop_metadata_present": true
+        },
+        {
+          "id": "music_warm",
+          "codec": "vorbis",
+          "decoded_samples": 3342316,
+          "decoded_peak_dbfs": -4.4,
+          "decoded_true_peak_dbfs": -4.39,
+          "decoded_rms_dbfs": -18.77,
+          "decoded_boundary_delta": 0.0026068,
+          "source_boundary_delta": 0.0,
+          "no_clipping": true,
+          "runtime_bytes": 1070759,
+          "stereo_correlation": 0.9266,
+          "loop_metadata_present": true
+        },
+        {
+          "id": "music_reflection",
+          "codec": "vorbis",
+          "decoded_samples": 3307500,
+          "decoded_peak_dbfs": -4.37,
+          "decoded_true_peak_dbfs": -4.36,
+          "decoded_rms_dbfs": -17.69,
+          "decoded_boundary_delta": 0.0027314,
+          "source_boundary_delta": 0.0,
+          "no_clipping": true,
+          "runtime_bytes": 740866,
+          "stereo_correlation": 0.9159,
+          "loop_metadata_present": true
+        },
+        {
+          "id": "music_ending",
+          "codec": "vorbis",
+          "decoded_samples": 2761043,
+          "decoded_peak_dbfs": -4.4,
+          "decoded_true_peak_dbfs": -4.38,
+          "decoded_rms_dbfs": -17.89,
+          "decoded_boundary_delta": 0.0031401,
+          "source_boundary_delta": 0.0,
+          "no_clipping": true,
+          "runtime_bytes": 930908,
+          "stereo_correlation": 0.9404,
+          "loop_metadata_present": true
+        },
+        {
+          "id": "ambience_rain",
+          "codec": "vorbis",
+          "decoded_samples": 1411200,
+          "decoded_peak_dbfs": -8.36,
+          "decoded_true_peak_dbfs": -8.25,
+          "decoded_rms_dbfs": -22.88,
+          "decoded_boundary_delta": 0.0168731,
+          "source_boundary_delta": 0.0,
+          "no_clipping": true,
+          "runtime_bytes": 595626,
+          "stereo_correlation": 0.0123,
+          "loop_metadata_present": true
+        },
+        {
+          "id": "sfx_page",
+          "codec": "vorbis",
+          "decoded_samples": 21040,
+          "decoded_peak_dbfs": -7.83,
+          "decoded_true_peak_dbfs": -7.11,
+          "decoded_rms_dbfs": -25.49,
+          "decoded_boundary_delta": 1.4e-06,
+          "source_boundary_delta": 0.0,
+          "no_clipping": true,
+          "runtime_bytes": 10607,
+          "stereo_correlation": 1.0,
+          "loop_metadata_present": false
+        },
+        {
+          "id": "sfx_camera",
+          "codec": "vorbis",
+          "decoded_samples": 15307,
+          "decoded_peak_dbfs": -8.17,
+          "decoded_true_peak_dbfs": -8.17,
+          "decoded_rms_dbfs": -25.08,
+          "decoded_boundary_delta": 0.0002798,
+          "source_boundary_delta": 0.0,
+          "no_clipping": true,
+          "runtime_bytes": 7985,
+          "stereo_correlation": 0.991,
+          "loop_metadata_present": false
+        },
+        {
+          "id": "sfx_ui",
+          "codec": "vorbis",
+          "decoded_samples": 6928,
+          "decoded_peak_dbfs": -8.17,
+          "decoded_true_peak_dbfs": -8.16,
+          "decoded_rms_dbfs": -23.77,
+          "decoded_boundary_delta": 0.0010639,
+          "source_boundary_delta": 0.0,
+          "no_clipping": true,
+          "runtime_bytes": 5829,
+          "stereo_correlation": 1.0,
+          "loop_metadata_present": false
+        }
+      ]
+    },
+    "independently_redecoded": true,
+    "runtime_files_match_validated_sha256": true,
+    "auditioned": false
+  },
+  "visual_review": {
+    "reviewer": "independent QA",
+    "inspected_images": [
+      "tests/independent/portrait_contact_sheet.png",
+      "screenshots/screenshot_title.png",
+      "screenshots/screenshot_d8_xia_evening_006.png",
+      "screenshots/screenshot_d6_xu_test_013.png",
+      "screenshots/screenshot_d8_song_roof_002.png",
+      "screenshots/screenshot_d5_print_010.png"
+    ],
+    "observations": [
+      "Contact sheet contains 27 rendered portrait files: 3 characters × 3 poses × 3 expressions for each pose. Hair, clothing and overall identity visually consistent across each character set; realistic photographic aesthetic. This is qualitative visual review, not biometric identity proof.",
+      "Temporary native screenshot c001 exposed toolbar lower-edge clipping. Engineer reduced button padding and moved toolbar up. Final-story d5_print_010 screenshot independently inspected and confirms full toolbar, three visible options and readable Chinese text with no clipping.",
+      "Python legal-state traversal proves each of 27 portrait combinations occurs on reachable nodes without CG overlays. Runtime independently confirms portrait visibility and loaded textures; six CGs shown with portraits hidden.",
+      "Six distinct background image files serve eight logical locations. rooftop aliases riverside; hospital_exterior aliases station. Do not claim eight unique backgrounds.",
+      "Final re-exported Linux CG screenshots d8_song_roof_002 and d6_xu_test_013 independently re-inspected at 23:58 UTC: plain dark matte replaces mismatched background strips, face/CG fully preserved. No remaining visible clipping in inspected native captures."
+    ],
+    "limitations": [
+      "GPU output was inspected through engineer-provided native screenshot files; auditor did not independently drive the shared desktop UI.",
+      "Headless texture-visibility assertions do not constitute WebGL or Windows visual verification."
+    ]
+  },
+  "issues_resolved": [
+    {
+      "issue": "Bottom toolbar clipped by approximately 6 pixels in preliminary native capture",
+      "owner_fix": "Small-button vertical padding reduced, toolbar/status moved upward",
+      "retest": "PASS: final-story screenshot_d5_print_010 toolbar fully within viewport"
+    },
+    {
+      "issue": "Initial script referenced only 22/27 visibly unoccluded portrait combinations",
+      "owner_fix": "Author added pose/expression overrides without changing routing",
+      "retest": "PASS: final script SHA16332ab4 contains 27/27 reachable unoccluded combinations; runtime verifies 27 textures visible"
+    },
+    {
+      "issue": "Two delivered SFX initially unused",
+      "owner_fix": "Engineer connected choice UI sound and collection-choice camera sound",
+      "retest": "PASS: page/ui/camera resource selection verified; final story has collecting choices and ordinary choices, connecting all eight audio assets"
+    },
+    {
+      "issue": "16:9 CG showed mismatched scene background strips above and below the image",
+      "owner_fix": "Hide scene background while CG is visible, restore it on ordinary portrait scenes and title",
+      "retest": "PASS: independent final release screenshots of Song rooftop and Xu workshop show clean plain ink letterbox and complete CG; 4631 full-story runtime assertions pass with added matte/background restoration checks"
+    },
+    {
+      "issue": "Rapid first music switch could lose the existing incoming stream while outgoing stream was null",
+      "owner_fix": "Retain/swap incoming stream when music.stream is null, as well as when mix > .5",
+      "retest": "PASS: all 4676 independent assertions plus independently rerun 27-check time-based crossfade suite on final source2a2a4f812f9a39ec75fd27ac39f68ea38461a67f561c87e9f3392b540f178628"
+    }
+  ],
+  "native_interaction_report": {
+    "status": "PASS_REPORTED_BY_ENGINEER",
+    "source": "Direct engineering report 2026-10-04 23:57 UTC; independent auditor reviewed native release screenshots, not the live input sequence",
+    "steps": [
+      "Native exported Linux binary launched with Mesa llvmpipe",
+      "Manual slot 1 save, Xu choice, load confirmation restores previous state",
+      "Ctrl+C interruption followed by relaunch and autosave restoration",
+      "Song subchoice navigated",
+      "Music volume .2, SFX .5 and mute=true persisted"
+    ],
+    "audio_output": "ALSA device absent; dummy driver used, no audible playback QA",
+    "written_evidence": "tests/native_ui_report.json",
+    "engineer_report": {
+      "platform": "Linux x86_64, Godot 4.6.3, Mesa llvmpipe",
+      "tested_surface": "Actual native Godot window through cloud desktop UI; exported Linux binary additionally launched",
+      "checks": [
+        "Photographic title, full-body standing and seated sprites are visible without text obscuring faces",
+        "Three-choice route selector and complete bottom toolbar fit inside 16:9 canvas",
+        "Longest production text: 102 Unicode characters renders fully",
+        "Manual slot 1 saved with visible chapter and timestamp",
+        "Choose Xu route, view seated pose, open load confirmation and restore checkpoint",
+        "Interrupt own game process via Terminal Ctrl+C, restart, see existing manual/autosave slots and restore autosave",
+        "Final full-story schedule third option reveals Song/solo second-stage choices; Song selection enters correct station scene",
+        "Settings modal fits on screen; music slider changes to 0.2 while SFX remains 0.5, mute true; persisted profile verified",
+        "Linux release executable generated final title, Xia dialogue, Xu CG, Song CG, and route selector screenshots",
+        "CG framing corrected to plain letterbox without mismatched background seams"
+      ],
+      "limitations": [
+        "No actual Windows execution",
+        "No WebGL 2 runtime available in cloud browser; static export/fallback checks only",
+        "No real mobile touch hardware tested",
+        "No audio output device: Godot fell back to dummy audio driver; no audible or human listening QA"
+      ],
+      "state": "PASS with disclosed environment limitations"
+    }
+  },
+  "release_limitations": [
+    "Windows executable is not executed on a Windows machine by this auditor.",
+    "WebGL2 rendering, browser storage persistence and browser gesture/audio policy were not verified in an actual WebGL2-capable browser by this auditor.",
+    "Audio has objective decode, loop flag, numerical peak/boundary and runtime wiring checks only. No human/audio-perception listening audit was performed; do not claim soundtrack was listened to.",
+    "Reading duration is calculated from actual complete legal path prose and pacing assumptions, not measured human playtime. Optional journal/history rereading is excluded.",
+    "Native save/load/interruption/relaunch was reported by engineer. Auditor independently verified equivalent persistence state through headless tests and inspected provided release screenshots.",
+    "Native Linux ran with dummy audio output because ALSA device was unavailable; stream tests do not prove audible playback."
+  ],
+  "reproduce": {
+    "story": "python tests/independent/audit_story.py",
+    "engine": "XDG_DATA_HOME=<isolated-directory> godot --headless --path . --script tests/independent/independent_engine_test.gd",
+    "full_story": "XDG_DATA_HOME=<isolated-directory> godot --headless --path . --script tests/independent/full_story_runtime.gd",
+    "audio": "XDG_DATA_HOME=<isolated-directory> godot --headless --path . --script tests/independent/audio_runtime.gd"
+  },
+  "evidence_files": [
+    "tests/independent/audio_integrity_report.json",
+    "tests/independent/audio_runtime.gd",
+    "tests/independent/audio_runtime_report.json",
+    "tests/independent/audit_story.py",
+    "tests/independent/collection_witnesses.json",
+    "tests/independent/full_story_runtime.gd",
+    "tests/independent/full_story_runtime_report.json",
+    "tests/independent/independent_engine_report.json",
+    "tests/independent/independent_engine_test.gd",
+    "tests/independent/independent_story_report.json",
+    "tests/independent/independent_witnesses.json",
+    "tests/independent/portrait_contact_sheet.png",
+    "tests/independent/witness_flat.json"
+  ],
+  "remaining_known_defects": [],
+  "supplemental_crossfade_retest": {
+    "status": "PASS",
+    "authored_by": "engineer",
+    "execution": "independently rerun by QA on final source",
+    "report": {
+      "checks": 27,
+      "failures": [],
+      "note": "Audio stream/loop/crossfade state only; dummy audio device, no listening QA",
+      "pass": true
+    },
+    "listened": false
+  }
+}

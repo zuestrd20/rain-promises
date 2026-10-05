@@ -1,0 +1,6 @@
+{
+  "checks": 27,
+  "failures": [],
+  "note": "Audio stream/loop/crossfade state only; dummy audio device, no listening QA",
+  "pass": true
+}

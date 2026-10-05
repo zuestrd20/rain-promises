@@ -1,0 +1,149 @@
+{
+  "check_count": 35,
+  "checks": [
+    {
+      "name": "node effects apply first entry",
+      "pass": true
+    },
+    {
+      "name": "repeat render does not replay nonzero node effect",
+      "pass": true
+    },
+    {
+      "name": "save/load does not replay nonzero node effect",
+      "pass": true
+    },
+    {
+      "name": "requires flags and affection threshold inclusive",
+      "pass": true
+    },
+    {
+      "name": "requires rejects missing flag and low affection",
+      "pass": true
+    },
+    {
+      "name": "branches choose legal fallback",
+      "pass": true
+    },
+    {
+      "name": "unmet choices hidden and keyboard index mapped",
+      "pass": true
+    },
+    {
+      "name": "programmatic illegal choice rejected",
+      "pass": true
+    },
+    {
+      "name": "legal choice applies affection and flags",
+      "pass": true
+    },
+    {
+      "name": "repeated choice during cooldown cannot duplicate effects",
+      "pass": true
+    },
+    {
+      "name": "auto mode and all progression pause inside modal",
+      "pass": true
+    },
+    {
+      "name": "double modal close safe",
+      "pass": true
+    },
+    {
+      "name": "modal close debounce",
+      "pass": true
+    },
+    {
+      "name": "read-only skip stops on unread",
+      "pass": true
+    },
+    {
+      "name": "read-only skip advances already read node",
+      "pass": true
+    },
+    {
+      "name": "auto mode pauses on choices",
+      "pass": true
+    },
+    {
+      "name": "valid save accepted",
+      "pass": true
+    },
+    {
+      "name": "malformed/version/game save rejected: <null>",
+      "pass": true
+    },
+    {
+      "name": "malformed/version/game save rejected: []",
+      "pass": true
+    },
+    {
+      "name": "malformed/version/game save rejected: {  }",
+      "pass": true
+    },
+    {
+      "name": "malformed/version/game save rejected: 42",
+      "pass": true
+    },
+    {
+      "name": "malformed/version/game save rejected: broken",
+      "pass": true
+    },
+    {
+      "name": "malformed/version/game save rejected: { \"version\": 1, \"game\": \"rain-promises\", \"state\": { \"affection\": { \"song\": 0, \"xia\": 5, \"x",
+      "pass": true
+    },
+    {
+      "name": "malformed/version/game save rejected: { \"version\": 2, \"game\": \"wrong-game\", \"state\": { \"affection\": { \"song\": 0, \"xia\": 5, \"xu\":",
+      "pass": true
+    },
+    {
+      "name": "invalid field rejected node",
+      "pass": true
+    },
+    {
+      "name": "invalid field rejected affection",
+      "pass": true
+    },
+    {
+      "name": "invalid field rejected history",
+      "pass": true
+    },
+    {
+      "name": "invalid field rejected visited",
+      "pass": true
+    },
+    {
+      "name": "invalid field rejected collections",
+      "pass": true
+    },
+    {
+      "name": "invalid field rejected flags",
+      "pass": true
+    },
+    {
+      "name": "invalid affection type rejected",
+      "pass": true
+    },
+    {
+      "name": "missing save preserves progress and reports error",
+      "pass": true
+    },
+    {
+      "name": "corrupt JSON save preserves progress and reports error",
+      "pass": true
+    },
+    {
+      "name": "new game resets route state",
+      "pass": true
+    },
+    {
+      "name": "title resets progression modes",
+      "pass": true
+    }
+  ],
+  "engine": "4.6.3-stable (official)",
+  "failures": [],
+  "passed": true,
+  "scope": "Independent runtime synthetic state tests; does not replace full story witnesses"
+}

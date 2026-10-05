@@ -1,0 +1,256 @@
+{
+  "character": "xu",
+  "name": "許芷禾",
+  "age": 30,
+  "fictional_ai_adult": true,
+  "style": "photorealistic cinematic low-saturation 35mm",
+  "tool": "built-in image_gen.imagegen",
+  "master": "originals/master_xu.png",
+  "prompts": {
+    "master": "Use case photorealistic-natural. Master identity reference for fictional adult romance visual novel character Xu Zhihe, age 30, Taiwanese woman, fictional AI adult not based on any real person. Cinematic natural photographic portrait, warm chestnut wavy short bob hair, softly round face, honey brown eyes, tiny beauty mole beside her right corner of mouth. Cream long sleeve shirt and mustard yellow linen pottery apron, dark brown trousers. Three-quarter length portrait, front view with subtle turn, both hands relaxed visible, neutral welcoming expression. Real natural skin pores, anatomically natural proportions, low saturation 35mm photograph, soft rainy-city window light, warm neutral plain studio backdrop. No painting, illustration, anime, glamour retouch, celebrities, brand, words or watermark. Preserve useful head hair outfit and hands detail.",
+    "standing": "Use case identity-preserve. Image 1 is master identity and exact outfit reference. Create a photoreal photographic game cutout sprite sheet, three separate full body portraits of this exact fictional 30-year-old woman Xu, not illustrations. Three equal-width columns in one landscape 1536x1024 canvas, clear wide transparent gaps, each woman centered within own third, complete hair head hands and dark brown trouser legs and simple shoes inside canvas. Same chestnut wavy bob, facial identity, beauty mark, cream rolled-cuff long sleeve shirt mustard linen pottery apron as reference, no outfit change. All three STANDING relaxed front three-quarter pose both hands down naturally: left calm NEUTRAL expression; middle warm clear SMILE; right THOUGHTFUL subdued expression gaze slightly aside. Same body size and baseline. Natural skin, soft rainy-city light, low saturation 35mm photo. Genuine transparent alpha background, no solid backdrop, no floor or shadow panel, no checkerboard drawn into image, no labels or words. Keep each figure wholly separated and isolated, no overlap.",
+    "seated": "Use case identity-preserve. Image 1 master locks this exact fictional adult woman Xu age 30 face, chestnut wavy short bob, mole beside mouth, cream rolled cuff long sleeve shirt mustard linen apron dark brown trousers shoes. Produce photoreal cinematic cutout sheet of THREE identical-identity SEATED whole-body figures, each sitting on own small plain wooden stool with both feet and hands naturally visible. Landscape 1536x1024, three equal columns, wide transparent gaps, no figure or stool overlapping another column. All heads at same height all entire stool feet hair inside canvas. Left expression NEUTRAL attentive hands resting on lap. Middle gentle happy SMILE hands resting on lap. Right SAD eyes lowered mouth subtle downturned hands loosely clasped. Real natural photographic skin, 35mm low saturation soft rainy window light. Genuine transparent background alpha everywhere apart from woman clothing and stool. No floor/background, no checkerboard artwork, no text, no illustration/anime, no other people. Keep reference person's exact facial identity outfit hair and adult proportions in every column.",
+    "action": "Use case identity-preserve. Master Image1 specifies exact fictional 30-year-old woman Xu, face mole beside mouth chestnut wavy bob cream shirt rolled cuffs mustard yellow linen pottery apron dark brown trousers brown work shoes, identity invariant. Photoreal transparent cutout sprite sheet landscape 1536x1024 THREE completely separate full length ACTION standing figures with clear transparent gaps and each entirely inside one equal column. Left NEUTRAL calm, holds handmade ceramic mug naturally in both hands at waist. Middle SURPRISED natural eyebrows raised eyes widened mouth slightly open, pauses wiping one hand with a small beige workcloth at waist. Right DETERMINED confident attentive expression, wiping hands with same workcloth at waist. No exaggerated cartoon emotion. Entire hair to shoes visible, natural anatomical hands and adult body. Real cinematic low saturation 35mm photo skin texture soft rainy-city window light. Transparent alpha backdrop, no solid floor or background, no words or drawn checkerboard. Same identity wardrobe and hair as master.",
+    "workshop_bg": "Use case photorealistic-natural. Empty urban Taiwanese pottery workshop, cinematic visual novel background, wide 16:9 1600x900 architectural interior photograph. Warm gentle rainy daylight through tall frosted side windows, wooden shelves holding irregular hand-thrown ceramic vessels, working pottery wheel in foreground left, sturdy wood worktable and linen workcloth, natural pale plaster walls, small indoor plant, compact city buildings softly out window. Cozy lived-in craft studio clean yet authentic, natural material textures and restrained earthy muted palette, 35mm film photograph, sophisticated cinematic soft shadows. No people, no faces or photographs of people, no brand, no readable text, not an illustration or anime, not a bookstore, not coastal. Leave clear standing area in center-right for game character overlay.",
+    "cafe_bg": "Use case photorealistic-natural. Empty intimate urban Taiwanese side-street cafe interior after rain, cinematic visual novel background, 16:9 wide 1600x900 realistic architectural photograph. Large window along left overlooking narrow damp city lane with small leafy plants and softly reflected street lamps, no people. A small round wood cafe table with two ceramic cups and chairs by the window, muted warm plaster wall, subtly lit coffee bar in depth, tasteful modest lived-in urban cafe, morning overcast daylight mixed warm lamp light. Low saturation 35mm photo natural real surfaces, gentle melancholy romantic atmosphere. No readable words, brands, watermarks, people, faces, bookshelves, sea or coastal scenery. Open compositional breathing room for game overlay. No illustration or painting.",
+    "workshop_cg": "Use case identity-preserve. Cinematic photoreal adult romance game CG 16:9 1600x900. Image 1 exact identity/outfit reference Xu Zhihe fictional woman age 30, image 2 location reference pottery workshop. Show SAME woman seated on stool at pottery wheel crafting a small clay bowl, two natural anatomically correct hands shaping wet clay on wheel. Her head turned gently toward camera, quiet warm smile. Same warm chestnut wavy bob, soft round face honey brown eyes tiny mole by mouth, cream rolled-cuff shirt mustard yellow linen apron and dark brown trousers. Medium-wide 3/4 environmental photo, whole head arms and hands visible, bowl lower foreground. Shelves with ceramics and rainy large windows in background like location reference. Intimate soft rainy-day warm light, low saturation 35mm cinematic still authentic skin pores no retouch. No other people, brands or readable words, not anime or illustration. Preserve master facial features and exact hairstyle clothing, no new identity.",
+    "cafe_cg": "Use case identity-preserve. Photoreal cinematic adult romance game CG 16:9 1600x900. Image 1 is exact face and wardrobe identity master of fictional adult Xu age 30. Image2 is cafe location reference. SAME woman sits at small cafe table by rain-flecked window, holds a small handmade ceramic cup naturally in BOTH hands, gently smiling and directly meeting camera eyes, quiet tender companionship. Chestnut short wavy bob, softly round face honey brown eyes tiny beauty mark by mouth, cream long sleeve shirt rolled cuffs mustard yellow linen pottery apron dark brown trousers unchanged. Medium environmental photograph, head to lap, hands and cup fully visible natural correct anatomy. Rain-wet urban lane outside window softly defocused, warm modest cafe interior consistent with location, no other people. Soft rainy city daylight warm lamps low saturation 35mm photographic textures real skin pores, not illustration anime or painting. No brand no readable words. Preserve exact master identity and clothing, do not make different person."
+  },
+  "processing": "Lossless source sheet extraction retained; runtime sprites proportional Lanczos resize and transparent padding only. Background/CG proportional resize to 1600x900 and JPEG encoding. No programmatic character drawing or alpha fabrication.",
+  "review": {
+    "identity": "All sprite sheets and two CG visually checked against master; hairstyle, face and wardrobe consistent.",
+    "alpha": "All nine sprites composited over contrasting teal background and inspected in originals/contact_alpha.jpg; no opaque rectangles.",
+    "cg": "Both CG visually inspected for identity, framing and natural hand anatomy.",
+    "backgrounds": "Both empty interiors visually inspected, no people/brands/readable text."
+  },
+  "assets": [
+    {
+      "asset_id": "xu_action_determined",
+      "character": "xu",
+      "pose": "action",
+      "expression": "determined",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_action_determined.png",
+      "source": "originals/action_sheet.png",
+      "prompt_key": "action",
+      "sha256": "dfb2bbcc2756153fc4b03ef5c1e1ea4271f992f3d7ecb89849a2c43f5861b650",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 289529,
+        "nontransparent_pixels": 161031
+      }
+    },
+    {
+      "asset_id": "xu_action_neutral",
+      "character": "xu",
+      "pose": "action",
+      "expression": "neutral",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_action_neutral.png",
+      "source": "originals/action_sheet.png",
+      "prompt_key": "action",
+      "sha256": "5c22c59df1d2df8db3924dd00c46172183fb4c1a9e89a47178f964192f39d8e6",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 289301,
+        "nontransparent_pixels": 161259
+      }
+    },
+    {
+      "asset_id": "xu_action_surprised",
+      "character": "xu",
+      "pose": "action",
+      "expression": "surprised",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_action_surprised.png",
+      "source": "originals/action_sheet.png",
+      "prompt_key": "action",
+      "sha256": "e1e22837a8592f2dec4dfd4de67cde3dc6c3682ea7dd012faf601c18fed24df3",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 294931,
+        "nontransparent_pixels": 155629
+      }
+    },
+    {
+      "asset_id": "xu_seated_neutral",
+      "character": "xu",
+      "pose": "seated",
+      "expression": "neutral",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_seated_neutral.png",
+      "source": "originals/seated_sheet.png",
+      "prompt_key": "seated",
+      "sha256": "37ab6ee5220fd16c1a0e33b3cdf8a1e4db39fde2f0043f94744345005959af02",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 264635,
+        "nontransparent_pixels": 185925
+      }
+    },
+    {
+      "asset_id": "xu_seated_sad",
+      "character": "xu",
+      "pose": "seated",
+      "expression": "sad",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_seated_sad.png",
+      "source": "originals/seated_sheet.png",
+      "prompt_key": "seated",
+      "sha256": "5ec3014dc4b3804512967219930f204ddb8d183b6cb0e906ad667d2f564b4bf0",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 264953,
+        "nontransparent_pixels": 185607
+      }
+    },
+    {
+      "asset_id": "xu_seated_smile",
+      "character": "xu",
+      "pose": "seated",
+      "expression": "smile",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_seated_smile.png",
+      "source": "originals/seated_sheet.png",
+      "prompt_key": "seated",
+      "sha256": "b7759f3c0012bd9f52b868f0f0a1a60b78646a16d88c07117e10767ebb01219a",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 260441,
+        "nontransparent_pixels": 190119
+      }
+    },
+    {
+      "asset_id": "xu_standing_neutral",
+      "character": "xu",
+      "pose": "standing",
+      "expression": "neutral",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_standing_neutral.png",
+      "source": "originals/standing_sheet.png",
+      "prompt_key": "standing",
+      "sha256": "f3e233905af6a4bfd05f67395e2829e870f10b32e88453534c0d0e9405f983c6",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 293785,
+        "nontransparent_pixels": 156775
+      }
+    },
+    {
+      "asset_id": "xu_standing_smile",
+      "character": "xu",
+      "pose": "standing",
+      "expression": "smile",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_standing_smile.png",
+      "source": "originals/standing_sheet.png",
+      "prompt_key": "standing",
+      "sha256": "8a7acbed3e9fe16725f9f77b69af80201630fece756a2786d0e85d570dbedfec",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 282534,
+        "nontransparent_pixels": 168026
+      }
+    },
+    {
+      "asset_id": "xu_standing_thoughtful",
+      "character": "xu",
+      "pose": "standing",
+      "expression": "thoughtful",
+      "dimensions": [
+        512,
+        880
+      ],
+      "path": "characters/xu_standing_thoughtful.png",
+      "source": "originals/standing_sheet.png",
+      "prompt_key": "standing",
+      "sha256": "8f3e5cd3242c207e2de393f5b04cedd7e385ddb03668eb800d3f2e1919718f93",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparent_pixels": 286265,
+        "nontransparent_pixels": 164295
+      }
+    },
+    {
+      "asset_id": "cafe",
+      "type": "backgrounds",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "path": "backgrounds/cafe.jpg",
+      "source": "originals/bg_cafe.png",
+      "prompt_key": "cafe_bg",
+      "sha256": "604b0976b254a2ddd0912095359a9edf4edc2be628c876ec8ac5ebe1a8eaff86"
+    },
+    {
+      "asset_id": "workshop",
+      "type": "backgrounds",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "path": "backgrounds/workshop.jpg",
+      "source": "originals/bg_workshop.png",
+      "prompt_key": "workshop_bg",
+      "sha256": "9878b8b2c21d70ab5a5b7aa394a9e0db9d06a7d5fef2cdd9cb4d325dca6e5a69"
+    },
+    {
+      "asset_id": "xu_cafe",
+      "type": "cg",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "path": "cg/xu_cafe.jpg",
+      "source": "originals/cg_xu_cafe.png",
+      "prompt_key": "cafe_cg",
+      "sha256": "14de13cc027227564c6e862d2217640bfe56edbb591c3aff6fea23c9f489fe7b"
+    },
+    {
+      "asset_id": "xu_workshop",
+      "type": "cg",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "path": "cg/xu_workshop.jpg",
+      "source": "originals/cg_xu_workshop.png",
+      "prompt_key": "workshop_cg",
+      "sha256": "f364c52c93a9bd249eed0d055454070b4b3a09281a4582565fa36acb3f43c2ea"
+    }
+  ]
+}

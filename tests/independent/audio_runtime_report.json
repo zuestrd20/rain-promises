@@ -1,0 +1,49 @@
+{
+  "audio_listened": false,
+  "checks": [
+    {
+      "name": "music selected and looping city",
+      "pass": true
+    },
+    {
+      "name": "music selected and looping warm",
+      "pass": true
+    },
+    {
+      "name": "music selected and looping reflection",
+      "pass": true
+    },
+    {
+      "name": "music selected and looping ending",
+      "pass": true
+    },
+    {
+      "name": "rain selected and looping",
+      "pass": true
+    },
+    {
+      "name": "sfx runtime page",
+      "pass": true
+    },
+    {
+      "name": "sfx runtime ui",
+      "pass": true
+    },
+    {
+      "name": "sfx runtime camera",
+      "pass": true
+    },
+    {
+      "name": "mute switches actual master bus",
+      "pass": true
+    },
+    {
+      "name": "zero sliders silence all playback channels",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "note": "Headless stream resource/loop/volume wiring test only. Objective decode/peak analysis separately supplied; no listening claim.",
+  "pass": true,
+  "runtime_assets_selected": 8
+}

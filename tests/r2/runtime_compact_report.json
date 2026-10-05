@@ -1,0 +1,91 @@
+{
+  "font_runtime_chars_checked": 1523,
+  "font_runtime_has_char_missing": [],
+  "images": [
+    {
+      "decoded_png": "tests/r2/decoded/museum.jpg.png",
+      "height": 900,
+      "path": "res://assets/backgrounds/museum.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/riverside.jpg.png",
+      "height": 900,
+      "path": "res://assets/backgrounds/riverside.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/workshop.jpg.png",
+      "height": 900,
+      "path": "res://assets/backgrounds/workshop.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/cafe.jpg.png",
+      "height": 900,
+      "path": "res://assets/backgrounds/cafe.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/station.jpg.png",
+      "height": 900,
+      "path": "res://assets/backgrounds/station.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/gallery.jpg.png",
+      "height": 900,
+      "path": "res://assets/backgrounds/gallery.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/xia_museum.jpg.png",
+      "height": 900,
+      "path": "res://assets/cg/xia_museum.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/xia_rooftop.jpg.png",
+      "height": 900,
+      "path": "res://assets/cg/xia_rooftop.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/xu_workshop.jpg.png",
+      "height": 900,
+      "path": "res://assets/cg/xu_workshop.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/xu_cafe.jpg.png",
+      "height": 900,
+      "path": "res://assets/cg/xu_cafe.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/song_station.jpg.png",
+      "height": 900,
+      "path": "res://assets/cg/song_station.jpg",
+      "saved": true,
+      "width": 1600
+    },
+    {
+      "decoded_png": "tests/r2/decoded/song_rooftop.jpg.png",
+      "height": 900,
+      "path": "res://assets/cg/song_rooftop.jpg",
+      "saved": true,
+      "width": 1600
+    }
+  ],
+  "pass": true
+}

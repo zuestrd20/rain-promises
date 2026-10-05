@@ -1,0 +1,15 @@
+{
+  "version": "1.0.1",
+  "method": "Font subset, renamed modified font; BG/CG Godot lossy texture import quality 0.92. No resolution change. Portrait alpha remains lossless; audio and story unchanged.",
+  "font_family": "Rain Promises CJK Subset",
+  "font_license": "SIL Open Font License 1.1, retained in assets/fonts/LICENSE.txt; original embedded Adobe copyright retained",
+  "original_font_bytes": 16435860,
+  "subset_font_bytes": 863436,
+  "requested_codepoints": 1523,
+  "retained_supported_codepoints": 1523,
+  "unsupported_in_original_font": [],
+  "needed_supported_codepoints_omitted": [],
+  "source_font_sha256": "f4a27abec644ebfad618dcc12ce060403f861a683bc6ab81d2036223dc992a88",
+  "subset_sha256": "4503effc7335137a6c96121823fdf03cf7d4a8ee71d28d13f1c3835fadfb8d6b",
+  "story_sha256": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416"
+}

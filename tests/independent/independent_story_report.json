@@ -1,0 +1,244 @@
+{
+  "pass": true,
+  "errors": [],
+  "story_sha256": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416",
+  "nodes": 649,
+  "reachable_nodes": 649,
+  "expanded_node_visits_no_state_merging": 10755,
+  "complete_legal_paths": 200,
+  "endings": {
+    "xia_romance": {
+      "paths": 8,
+      "min_prose_unicode": 15503,
+      "max_prose_unicode": 15532,
+      "min_prose_han": 13922,
+      "max_prose_han": 13953,
+      "min_nodes": 281,
+      "max_nodes": 281,
+      "fast_estimate_minutes": 36.6,
+      "leisurely_estimate_minutes": 55.3
+    },
+    "xia_friendship": {
+      "paths": 56,
+      "min_prose_unicode": 15196,
+      "max_prose_unicode": 15491,
+      "min_prose_han": 13654,
+      "max_prose_han": 13928,
+      "min_nodes": 273,
+      "max_nodes": 281,
+      "fast_estimate_minutes": 35.9,
+      "leisurely_estimate_minutes": 55.2
+    },
+    "xu_romance": {
+      "paths": 8,
+      "min_prose_unicode": 17769,
+      "max_prose_unicode": 17798,
+      "min_prose_han": 15939,
+      "max_prose_han": 15970,
+      "min_nodes": 311,
+      "max_nodes": 311,
+      "fast_estimate_minutes": 41.4,
+      "leisurely_estimate_minutes": 62.8
+    },
+    "xu_friendship": {
+      "paths": 56,
+      "min_prose_unicode": 17679,
+      "max_prose_unicode": 17920,
+      "min_prose_han": 15866,
+      "max_prose_han": 16090,
+      "min_nodes": 308,
+      "max_nodes": 311,
+      "fast_estimate_minutes": 41.2,
+      "leisurely_estimate_minutes": 63.2
+    },
+    "song_romance": {
+      "paths": 8,
+      "min_prose_unicode": 15967,
+      "max_prose_unicode": 15996,
+      "min_prose_han": 14328,
+      "max_prose_han": 14359,
+      "min_nodes": 289,
+      "max_nodes": 289,
+      "fast_estimate_minutes": 37.9,
+      "leisurely_estimate_minutes": 57.1
+    },
+    "song_friendship": {
+      "paths": 56,
+      "min_prose_unicode": 15949,
+      "max_prose_unicode": 16094,
+      "min_prose_han": 14314,
+      "max_prose_han": 14446,
+      "min_nodes": 287,
+      "max_nodes": 290,
+      "fast_estimate_minutes": 37.8,
+      "leisurely_estimate_minutes": 57.4
+    },
+    "solo": {
+      "paths": 8,
+      "min_prose_unicode": 12063,
+      "max_prose_unicode": 12092,
+      "min_prose_han": 10832,
+      "max_prose_han": 10863,
+      "min_nodes": 207,
+      "max_nodes": 207,
+      "fast_estimate_minutes": 28.1,
+      "leisurely_estimate_minutes": 42.6
+    }
+  },
+  "collectibles_reachable": [
+    "card_clay",
+    "card_cloud",
+    "card_depart",
+    "card_empty",
+    "card_river",
+    "card_seat",
+    "card_stars",
+    "card_time"
+  ],
+  "visible_portraits": [
+    [
+      "song",
+      "action_determined"
+    ],
+    [
+      "song",
+      "action_neutral"
+    ],
+    [
+      "song",
+      "action_surprised"
+    ],
+    [
+      "song",
+      "seated_neutral"
+    ],
+    [
+      "song",
+      "seated_sad"
+    ],
+    [
+      "song",
+      "seated_smile"
+    ],
+    [
+      "song",
+      "standing_neutral"
+    ],
+    [
+      "song",
+      "standing_smile"
+    ],
+    [
+      "song",
+      "standing_thoughtful"
+    ],
+    [
+      "xia",
+      "action_determined"
+    ],
+    [
+      "xia",
+      "action_neutral"
+    ],
+    [
+      "xia",
+      "action_surprised"
+    ],
+    [
+      "xia",
+      "seated_neutral"
+    ],
+    [
+      "xia",
+      "seated_sad"
+    ],
+    [
+      "xia",
+      "seated_smile"
+    ],
+    [
+      "xia",
+      "standing_neutral"
+    ],
+    [
+      "xia",
+      "standing_smile"
+    ],
+    [
+      "xia",
+      "standing_thoughtful"
+    ],
+    [
+      "xu",
+      "action_determined"
+    ],
+    [
+      "xu",
+      "action_neutral"
+    ],
+    [
+      "xu",
+      "action_surprised"
+    ],
+    [
+      "xu",
+      "seated_neutral"
+    ],
+    [
+      "xu",
+      "seated_sad"
+    ],
+    [
+      "xu",
+      "seated_smile"
+    ],
+    [
+      "xu",
+      "standing_neutral"
+    ],
+    [
+      "xu",
+      "standing_smile"
+    ],
+    [
+      "xu",
+      "standing_thoughtful"
+    ]
+  ],
+  "background_keys": [
+    "cafe",
+    "gallery",
+    "hospital_exterior",
+    "museum",
+    "riverside",
+    "rooftop",
+    "station",
+    "workshop"
+  ],
+  "unique_background_files": [
+    "res://assets/backgrounds/cafe.jpg",
+    "res://assets/backgrounds/gallery.jpg",
+    "res://assets/backgrounds/museum.jpg",
+    "res://assets/backgrounds/riverside.jpg",
+    "res://assets/backgrounds/station.jpg",
+    "res://assets/backgrounds/workshop.jpg"
+  ],
+  "visible_cgs": [
+    "song_rooftop",
+    "song_station",
+    "xia_museum",
+    "xia_rooftop",
+    "xu_cafe",
+    "xu_workshop"
+  ],
+  "music_keys": [
+    "city",
+    "ending",
+    "reflection",
+    "warm"
+  ],
+  "branch_edges_exercised": 8,
+  "choice_edges_exercised": 29,
+  "all_assets_present": true,
+  "reading_estimate": "Per legal complete path: actual node prose Han count / 500 or 300 per minute + .025 minutes per node + .25 per choice. Does not sum mutually exclusive branches. Estimate, not measured play time; excludes optional gallery/backlog and displayed unchosen options."
+}

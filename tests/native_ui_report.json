@@ -1,0 +1,30 @@
+{
+  "platform": "Linux x86_64, Godot 4.6.3, Mesa llvmpipe",
+  "tested_surface": "Actual native Godot window through cloud desktop UI; exported Linux binary additionally launched",
+  "checks": [
+    "Photographic title, full-body standing and seated sprites are visible without text obscuring faces",
+    "Three-choice route selector and complete bottom toolbar fit inside 16:9 canvas",
+    "Longest production text: 102 Unicode characters renders fully",
+    "Manual slot 1 saved with visible chapter and timestamp",
+    "Choose Xu route, view seated pose, open load confirmation and restore checkpoint",
+    "Interrupt own game process via Terminal Ctrl+C, restart, see existing manual/autosave slots and restore autosave",
+    "Final full-story schedule third option reveals Song/solo second-stage choices; Song selection enters correct station scene",
+    "Settings modal fits on screen; music slider changes to 0.2 while SFX remains 0.5, mute true; persisted profile verified",
+    "Linux release executable generated final title, Xia dialogue, Xu CG, Song CG, and route selector screenshots",
+    "CG framing corrected to plain letterbox without mismatched background seams"
+  ],
+  "limitations": [
+    "No actual Windows execution",
+    "No WebGL 2 runtime available in cloud browser; static export/fallback checks only",
+    "No real mobile touch hardware tested",
+    "No audio output device: Godot fell back to dummy audio driver; no audible or human listening QA"
+  ],
+  "state": "PASS with disclosed environment limitations",
+  "version": "1.0.1",
+  "r2_additional_native_checks": [
+    "Rebuilt Linux release executed with compact renamed font and quality-0.92 BG/CG imports",
+    "Five release screenshots recaptured and inspected: title, longest dialogue, Xu CG, Song rooftop CG, three-option route selector",
+    "New game → manual slot 1 with timestamp → advance two paragraphs → load confirmation → correct first paragraph restored",
+    "All visible Chinese, punctuation, numerals and metadata labels rendered cleanly; no missing glyph boxes"
+  ]
+}

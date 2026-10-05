@@ -1,0 +1,257 @@
+{
+  "version": "1.0.1",
+  "pass": true,
+  "errors": [],
+  "content_files_compared": 49,
+  "story_portraits_background_source_cg_source_audio_all_unchanged": true,
+  "only_runtime_import_encoding_and_font_subset_changed": true,
+  "items": [
+    {
+      "file": "data/story.json",
+      "unchanged": true,
+      "sha256": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416"
+    },
+    {
+      "file": "data/art.json",
+      "unchanged": true,
+      "sha256": "4fb714cfdeded74a61c8e09c7e262e2ac913474c8549c49851ff0a456b24a9d4"
+    },
+    {
+      "file": "assets/characters/xu_action_determined.webp",
+      "unchanged": true,
+      "sha256": "d2f5e1be0e7517d110b4f1d789fd42954272b13ba80f4683326f29a74e5d39c8"
+    },
+    {
+      "file": "assets/characters/song_action_neutral.webp",
+      "unchanged": true,
+      "sha256": "65cd81533dc30055e7ea7176a11e81bac35bab082b4c365ffefc2f530d429712"
+    },
+    {
+      "file": "assets/characters/xu_standing_neutral.webp",
+      "unchanged": true,
+      "sha256": "8a4cdf222cad6f2587924608d04a72f05dfad5a77a8069b5182fb0164c43d753"
+    },
+    {
+      "file": "assets/characters/song_seated_sad.webp",
+      "unchanged": true,
+      "sha256": "97ad17d41ee1396bb3aaf3ca345f9671a1279fe280d3dc99c6c332c69740d9dd"
+    },
+    {
+      "file": "assets/characters/xia_seated_neutral.webp",
+      "unchanged": true,
+      "sha256": "055771e14e90a219718b9942d2c07acd718b6d9cac21d560384d6ddde31785aa"
+    },
+    {
+      "file": "assets/characters/xu_standing_thoughtful.webp",
+      "unchanged": true,
+      "sha256": "32e5499021a719a683b66415955b2c537408fc4bd80762a6d3d114f1c2853fda"
+    },
+    {
+      "file": "assets/characters/song_standing_thoughtful.webp",
+      "unchanged": true,
+      "sha256": "7e1b6dbc40f3aa63492a4e7a68c41d7dab97044d91d403dd81c0df5a4688180b"
+    },
+    {
+      "file": "assets/characters/song_seated_smile.webp",
+      "unchanged": true,
+      "sha256": "a1a0706d8e7f15122d59aa28779d2cf080a3d0dbde4637ca75f98fbf081a15a8"
+    },
+    {
+      "file": "assets/characters/xia_action_neutral.webp",
+      "unchanged": true,
+      "sha256": "34bd7835d185d7184019b0e460de72d1efbe365b5472ad096afab473e5c893e0"
+    },
+    {
+      "file": "assets/characters/xu_seated_sad.webp",
+      "unchanged": true,
+      "sha256": "8f8a5ba5f8003e8cf005894efd14d0dcf57f8152de47572e554a426c956047d5"
+    },
+    {
+      "file": "assets/characters/xu_standing_smile.webp",
+      "unchanged": true,
+      "sha256": "f37dc946282dc4d67eb0c726fdd4b37506954970623879bc2dd1f7ae70e48490"
+    },
+    {
+      "file": "assets/characters/xu_seated_neutral.webp",
+      "unchanged": true,
+      "sha256": "21127378e08c9b8c6d006219feed718bbe45e577b6136c48df238c9e7509b3f9"
+    },
+    {
+      "file": "assets/characters/xia_standing_neutral.webp",
+      "unchanged": true,
+      "sha256": "adc29d94a9940ceb620e03c2390c2ca641a16af9667e0d5ddd1c49453fd865a2"
+    },
+    {
+      "file": "assets/characters/song_standing_smile.webp",
+      "unchanged": true,
+      "sha256": "c110ba5fafdd11261ddf8fb890d769b70d3d47831eeb892f161708944a631570"
+    },
+    {
+      "file": "assets/characters/xu_seated_smile.webp",
+      "unchanged": true,
+      "sha256": "c26e8525e4679fdea3650228660670a2f86dc5a064a29ed22887bdbdc13b6210"
+    },
+    {
+      "file": "assets/characters/song_action_surprised.webp",
+      "unchanged": true,
+      "sha256": "7fb99be515931e9cec64b6b6df1ecd2575f7d99e4f50042457ddfa8b166e76c1"
+    },
+    {
+      "file": "assets/characters/xu_action_surprised.webp",
+      "unchanged": true,
+      "sha256": "eed607b97bda34e9491a926dca96ad7ca32ecfbeef84f65abd88983b64198ff7"
+    },
+    {
+      "file": "assets/characters/xia_seated_smile.webp",
+      "unchanged": true,
+      "sha256": "1daa6648d726f29802d557b8d7486d058a8e154b3f22782da096bbaf6b1cb5ba"
+    },
+    {
+      "file": "assets/characters/xia_action_determined.webp",
+      "unchanged": true,
+      "sha256": "fa9c5f6e213154673200a2ceee34e99db28d27a20ebf529f4265dea48e97ccc2"
+    },
+    {
+      "file": "assets/characters/xu_action_neutral.webp",
+      "unchanged": true,
+      "sha256": "acae23339b9d6b7982b1b8109d063d6e6948172bdfcc3e57731a5ce030611de9"
+    },
+    {
+      "file": "assets/characters/xia_standing_thoughtful.webp",
+      "unchanged": true,
+      "sha256": "0928e68c611cb1e21b925912c4d1f09d7243483a86a3f85b8ed19623da30f4dc"
+    },
+    {
+      "file": "assets/characters/xia_seated_sad.webp",
+      "unchanged": true,
+      "sha256": "c7248d2d210e3d1a154659c52aeb7fd1f51f536d866fb01dcaeefe71bf8ab2b8"
+    },
+    {
+      "file": "assets/characters/xia_standing_smile.webp",
+      "unchanged": true,
+      "sha256": "e74184345dc0dd30bcdf10f6013836ee0b59d1d972f7225db86f2d982e1df378"
+    },
+    {
+      "file": "assets/characters/song_action_determined.webp",
+      "unchanged": true,
+      "sha256": "56627f03c4e1be1440741837af6b116a97611ba5527be995293989ce6b47cfef"
+    },
+    {
+      "file": "assets/characters/song_seated_neutral.webp",
+      "unchanged": true,
+      "sha256": "d4992a552405443626c7670757764c94fcc804479c9d7814ee9dac15cf0245d0"
+    },
+    {
+      "file": "assets/characters/xia_action_surprised.webp",
+      "unchanged": true,
+      "sha256": "2d50049b2351fc71ff484ac71b736c38a1abb109fbb035e7eb77280ed860f15c"
+    },
+    {
+      "file": "assets/characters/song_standing_neutral.webp",
+      "unchanged": true,
+      "sha256": "fd1a5ddf169b5ab9004e897ae965b7de304c28b7fa425421d592003e688ea23f"
+    },
+    {
+      "file": "assets/audio/music_reflection.ogg",
+      "unchanged": true,
+      "sha256": "8e261a3f998a953c64adad5802dbce9d7dcced5f5a8e1dd188c79bd45090cc23"
+    },
+    {
+      "file": "assets/audio/music_ending.ogg",
+      "unchanged": true,
+      "sha256": "75c37f184762c8ba1446ad948294cd0557a289b16005ece56c18e2d9e7b2dd98"
+    },
+    {
+      "file": "assets/audio/sfx_camera.ogg",
+      "unchanged": true,
+      "sha256": "522b8fc3c60104d94275e24d5675b9a39d1e48d2375d8e29752fdb9edfa9f3c8"
+    },
+    {
+      "file": "assets/audio/music_warm.ogg",
+      "unchanged": true,
+      "sha256": "da816423608a0f55a4a0dd4b442c1f3d71675667cb2005adc3206521d4cd4d17"
+    },
+    {
+      "file": "assets/audio/ambience_rain.ogg",
+      "unchanged": true,
+      "sha256": "56304d265bad3f14b098577cc3a9f05eca79bd467935a90b91a9c81d2b7f0f3c"
+    },
+    {
+      "file": "assets/audio/sfx_page.ogg",
+      "unchanged": true,
+      "sha256": "8500555d2c359186c90ac639259e264aaa9e05a6ddd4fdb1bd0ead8248739fe8"
+    },
+    {
+      "file": "assets/audio/music_city.ogg",
+      "unchanged": true,
+      "sha256": "e0237692fe4e169b15788445d81be702c94257e3dd7380e00e2ba856fe4846e0"
+    },
+    {
+      "file": "assets/audio/sfx_ui.ogg",
+      "unchanged": true,
+      "sha256": "5dbe5377fb9e5dfdb767309f6c086afc680b979684c10c3df2096c5d1bea473b"
+    },
+    {
+      "file": "assets/backgrounds/gallery.jpg",
+      "unchanged": true,
+      "sha256": "57385f73fc55e6717db655fd6f9adf0b77fd20e9da34b28e9f1825f59effe20b"
+    },
+    {
+      "file": "assets/backgrounds/museum.jpg",
+      "unchanged": true,
+      "sha256": "31bc06bc55690d472f7d0c5fed6b845ee8b4d13a86659c15c988814680aaf3ed"
+    },
+    {
+      "file": "assets/backgrounds/cafe.jpg",
+      "unchanged": true,
+      "sha256": "e67c44674a7b0e9cb99ea718991132a442add6925678a8542402295464afc2fe"
+    },
+    {
+      "file": "assets/backgrounds/riverside.jpg",
+      "unchanged": true,
+      "sha256": "24afd517c8466d48b0375414bf7d14667248ba9672d169b63fbbccc268b77da0"
+    },
+    {
+      "file": "assets/backgrounds/workshop.jpg",
+      "unchanged": true,
+      "sha256": "521649992eb6c4c3bdecec513e334e1ceb9d37943b9b87cd39259b1f270a6add"
+    },
+    {
+      "file": "assets/backgrounds/station.jpg",
+      "unchanged": true,
+      "sha256": "1f90948a2adffc0570c7667fe6cbf59ee9d23f11caaeebe1aa1c7a87b3082245"
+    },
+    {
+      "file": "assets/cg/song_rooftop.jpg",
+      "unchanged": true,
+      "sha256": "da29dc68f9293ef8e4c2085fe4e50c437bd5bb492e46020cbbd22cc86bb10d71"
+    },
+    {
+      "file": "assets/cg/xia_rooftop.jpg",
+      "unchanged": true,
+      "sha256": "ddb201db3ad39f6c81e39536e48ef9f66ab30e7f72ea31cf2eccb2fb4f064a7e"
+    },
+    {
+      "file": "assets/cg/xu_workshop.jpg",
+      "unchanged": true,
+      "sha256": "0d37a863cb965712d97c4ec1ef59eadc8ada09a5add3178ac3a8a3d1f935349b"
+    },
+    {
+      "file": "assets/cg/xia_museum.jpg",
+      "unchanged": true,
+      "sha256": "0752ba65257bc9c2e929b1275a3acafd2523d9a19135fa733345df747028ad76"
+    },
+    {
+      "file": "assets/cg/song_station.jpg",
+      "unchanged": true,
+      "sha256": "b422ad58f1399f7a2e2a8982b2323acb7f11d2716ed5588c1753b2c2848d6678"
+    },
+    {
+      "file": "assets/cg/xu_cafe.jpg",
+      "unchanged": true,
+      "sha256": "467e67105edffcf8f3dd9be03d1433b5d1e60d030198d07bd5bccbc2049818bb"
+    }
+  ],
+  "web_pck_bytes": 16932152,
+  "target_bytes": 26214400
+}

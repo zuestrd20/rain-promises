@@ -1,0 +1,884 @@
+{
+  "project": "雨停之前的約定",
+  "release_revision": "r2 compact 1.0.1",
+  "status": "PASS_WITH_PLATFORM_AND_LISTENING_LIMITATIONS",
+  "generated_utc": "2026-10-05T00:28:39.634315+00:00",
+  "baseline_r1_report": "tests/independent/QA_REPORT.json",
+  "r1_preserved_unmodified": true,
+  "auditor_changes": "None to either project; separate tests, reports and user-data directories only.",
+  "fingerprints": {
+    "scripts/main.gd": "ec262fb17664e8ebb5f502429d03368281c1ce048bd0c04c9c4a48457948231a",
+    "data/story.json": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416",
+    "data/art.json": "4fb714cfdeded74a61c8e09c7e262e2ac913474c8549c49851ff0a456b24a9d4",
+    "assets/fonts/RainPromisesCJKSubset.otf": "4503effc7335137a6c96121823fdf03cf7d4a8ee71d28d13f1c3835fadfb8d6b"
+  },
+  "summary": {
+    "complete_legal_paths": 200,
+    "story_nodes": 649,
+    "endings": 7,
+    "collectibles": 8,
+    "visible_portraits": 27,
+    "unique_backgrounds": 6,
+    "CGs": 6,
+    "runtime_assertions_passed": 4703,
+    "runtime_assertions_failed": 0,
+    "independent_assertions": 4676,
+    "engineer_authored_assertions_independently_rerun": 27,
+    "font_required_codepoints": 1523,
+    "font_missing_codepoints": 0,
+    "font_glyph_outline_differences": 0,
+    "unchanged_content_files": 49,
+    "imported_image_dimensions": "All 12 remain 1600x900",
+    "imported_image_source_PSNR_db_range": [
+      41.37,
+      43.31
+    ]
+  },
+  "compact_integrity": {
+    "pass": true,
+    "content_files_compared": 49,
+    "changed_content": [],
+    "font_codepoints_required": 1523,
+    "missing_subset_codepoints": [],
+    "glyph_outlines_different_from_original": [],
+    "font_names": {
+      "1": [
+        "Rain Promises CJK Subset"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "3": [
+        "RainPromisesCJKSubset-1.0"
+      ],
+      "4": [
+        "Rain Promises CJK Subset"
+      ],
+      "6": [
+        "RainPromisesCJKSubset-Regular"
+      ],
+      "16": [],
+      "17": []
+    },
+    "CFF_font_names": [
+      "RainPromisesCJKSubset-Regular"
+    ],
+    "CFF_full_name": "Rain Promises CJK Subset",
+    "CFF_family_name": "Rain Promises CJK Subset",
+    "full_original_font_matches_r1": true,
+    "OFL_preserved": true,
+    "copyright_name_table_preserved": true,
+    "texture_imports": [
+      {
+        "file": "assets/backgrounds/workshop.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/backgrounds/cafe.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/backgrounds/station.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/backgrounds/museum.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/backgrounds/riverside.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/backgrounds/gallery.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/cg/xu_cafe.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/cg/song_station.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/cg/xu_workshop.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/cg/song_rooftop.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/cg/xia_rooftop.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      },
+      {
+        "file": "assets/cg/xia_museum.jpg.import",
+        "quality92": true,
+        "lossy_mode": true
+      }
+    ],
+    "main_sha256": "ec262fb17664e8ebb5f502429d03368281c1ce048bd0c04c9c4a48457948231a",
+    "story_sha256": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416"
+  },
+  "runtime_font_and_textures": {
+    "font_runtime_chars_checked": 1523,
+    "font_runtime_has_char_missing": [],
+    "images": [
+      {
+        "decoded_png": "tests/r2/decoded/museum.jpg.png",
+        "height": 900,
+        "path": "res://assets/backgrounds/museum.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/riverside.jpg.png",
+        "height": 900,
+        "path": "res://assets/backgrounds/riverside.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/workshop.jpg.png",
+        "height": 900,
+        "path": "res://assets/backgrounds/workshop.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/cafe.jpg.png",
+        "height": 900,
+        "path": "res://assets/backgrounds/cafe.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/station.jpg.png",
+        "height": 900,
+        "path": "res://assets/backgrounds/station.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/gallery.jpg.png",
+        "height": 900,
+        "path": "res://assets/backgrounds/gallery.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/xia_museum.jpg.png",
+        "height": 900,
+        "path": "res://assets/cg/xia_museum.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/xia_rooftop.jpg.png",
+        "height": 900,
+        "path": "res://assets/cg/xia_rooftop.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/xu_workshop.jpg.png",
+        "height": 900,
+        "path": "res://assets/cg/xu_workshop.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/xu_cafe.jpg.png",
+        "height": 900,
+        "path": "res://assets/cg/xu_cafe.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/song_station.jpg.png",
+        "height": 900,
+        "path": "res://assets/cg/song_station.jpg",
+        "saved": true,
+        "width": 1600
+      },
+      {
+        "decoded_png": "tests/r2/decoded/song_rooftop.jpg.png",
+        "height": 900,
+        "path": "res://assets/cg/song_rooftop.jpg",
+        "saved": true,
+        "width": 1600
+      }
+    ],
+    "pass": true
+  },
+  "texture_quality_metrics": [
+    {
+      "image": "res://assets/backgrounds/museum.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 43.05,
+      "mean_absolute_channel_difference": 1.327
+    },
+    {
+      "image": "res://assets/backgrounds/riverside.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 41.65,
+      "mean_absolute_channel_difference": 1.55
+    },
+    {
+      "image": "res://assets/backgrounds/workshop.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 42.25,
+      "mean_absolute_channel_difference": 1.477
+    },
+    {
+      "image": "res://assets/backgrounds/cafe.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 42.21,
+      "mean_absolute_channel_difference": 1.469
+    },
+    {
+      "image": "res://assets/backgrounds/station.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 41.37,
+      "mean_absolute_channel_difference": 1.611
+    },
+    {
+      "image": "res://assets/backgrounds/gallery.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 43.01,
+      "mean_absolute_channel_difference": 1.343
+    },
+    {
+      "image": "res://assets/cg/xia_museum.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 42.68,
+      "mean_absolute_channel_difference": 1.399
+    },
+    {
+      "image": "res://assets/cg/xia_rooftop.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 43.31,
+      "mean_absolute_channel_difference": 1.271
+    },
+    {
+      "image": "res://assets/cg/xu_workshop.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 42.31,
+      "mean_absolute_channel_difference": 1.466
+    },
+    {
+      "image": "res://assets/cg/xu_cafe.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 42.25,
+      "mean_absolute_channel_difference": 1.469
+    },
+    {
+      "image": "res://assets/cg/song_station.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 42.63,
+      "mean_absolute_channel_difference": 1.409
+    },
+    {
+      "image": "res://assets/cg/song_rooftop.jpg",
+      "dimensions_preserved": true,
+      "source_vs_imported_PSNR_db": 42.05,
+      "mean_absolute_channel_difference": 1.498
+    }
+  ],
+  "story_paths_and_durations": {
+    "pass": true,
+    "errors": [],
+    "story_sha256": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416",
+    "nodes": 649,
+    "reachable_nodes": 649,
+    "expanded_node_visits_no_state_merging": 10755,
+    "complete_legal_paths": 200,
+    "endings": {
+      "xia_romance": {
+        "paths": 8,
+        "min_prose_unicode": 15503,
+        "max_prose_unicode": 15532,
+        "min_prose_han": 13922,
+        "max_prose_han": 13953,
+        "min_nodes": 281,
+        "max_nodes": 281,
+        "fast_estimate_minutes": 36.6,
+        "leisurely_estimate_minutes": 55.3
+      },
+      "xia_friendship": {
+        "paths": 56,
+        "min_prose_unicode": 15196,
+        "max_prose_unicode": 15491,
+        "min_prose_han": 13654,
+        "max_prose_han": 13928,
+        "min_nodes": 273,
+        "max_nodes": 281,
+        "fast_estimate_minutes": 35.9,
+        "leisurely_estimate_minutes": 55.2
+      },
+      "xu_romance": {
+        "paths": 8,
+        "min_prose_unicode": 17769,
+        "max_prose_unicode": 17798,
+        "min_prose_han": 15939,
+        "max_prose_han": 15970,
+        "min_nodes": 311,
+        "max_nodes": 311,
+        "fast_estimate_minutes": 41.4,
+        "leisurely_estimate_minutes": 62.8
+      },
+      "xu_friendship": {
+        "paths": 56,
+        "min_prose_unicode": 17679,
+        "max_prose_unicode": 17920,
+        "min_prose_han": 15866,
+        "max_prose_han": 16090,
+        "min_nodes": 308,
+        "max_nodes": 311,
+        "fast_estimate_minutes": 41.2,
+        "leisurely_estimate_minutes": 63.2
+      },
+      "song_romance": {
+        "paths": 8,
+        "min_prose_unicode": 15967,
+        "max_prose_unicode": 15996,
+        "min_prose_han": 14328,
+        "max_prose_han": 14359,
+        "min_nodes": 289,
+        "max_nodes": 289,
+        "fast_estimate_minutes": 37.9,
+        "leisurely_estimate_minutes": 57.1
+      },
+      "song_friendship": {
+        "paths": 56,
+        "min_prose_unicode": 15949,
+        "max_prose_unicode": 16094,
+        "min_prose_han": 14314,
+        "max_prose_han": 14446,
+        "min_nodes": 287,
+        "max_nodes": 290,
+        "fast_estimate_minutes": 37.8,
+        "leisurely_estimate_minutes": 57.4
+      },
+      "solo": {
+        "paths": 8,
+        "min_prose_unicode": 12063,
+        "max_prose_unicode": 12092,
+        "min_prose_han": 10832,
+        "max_prose_han": 10863,
+        "min_nodes": 207,
+        "max_nodes": 207,
+        "fast_estimate_minutes": 28.1,
+        "leisurely_estimate_minutes": 42.6
+      }
+    },
+    "collectibles_reachable": [
+      "card_clay",
+      "card_cloud",
+      "card_depart",
+      "card_empty",
+      "card_river",
+      "card_seat",
+      "card_stars",
+      "card_time"
+    ],
+    "visible_portraits": [
+      [
+        "song",
+        "action_determined"
+      ],
+      [
+        "song",
+        "action_neutral"
+      ],
+      [
+        "song",
+        "action_surprised"
+      ],
+      [
+        "song",
+        "seated_neutral"
+      ],
+      [
+        "song",
+        "seated_sad"
+      ],
+      [
+        "song",
+        "seated_smile"
+      ],
+      [
+        "song",
+        "standing_neutral"
+      ],
+      [
+        "song",
+        "standing_smile"
+      ],
+      [
+        "song",
+        "standing_thoughtful"
+      ],
+      [
+        "xia",
+        "action_determined"
+      ],
+      [
+        "xia",
+        "action_neutral"
+      ],
+      [
+        "xia",
+        "action_surprised"
+      ],
+      [
+        "xia",
+        "seated_neutral"
+      ],
+      [
+        "xia",
+        "seated_sad"
+      ],
+      [
+        "xia",
+        "seated_smile"
+      ],
+      [
+        "xia",
+        "standing_neutral"
+      ],
+      [
+        "xia",
+        "standing_smile"
+      ],
+      [
+        "xia",
+        "standing_thoughtful"
+      ],
+      [
+        "xu",
+        "action_determined"
+      ],
+      [
+        "xu",
+        "action_neutral"
+      ],
+      [
+        "xu",
+        "action_surprised"
+      ],
+      [
+        "xu",
+        "seated_neutral"
+      ],
+      [
+        "xu",
+        "seated_sad"
+      ],
+      [
+        "xu",
+        "seated_smile"
+      ],
+      [
+        "xu",
+        "standing_neutral"
+      ],
+      [
+        "xu",
+        "standing_smile"
+      ],
+      [
+        "xu",
+        "standing_thoughtful"
+      ]
+    ],
+    "background_keys": [
+      "cafe",
+      "gallery",
+      "hospital_exterior",
+      "museum",
+      "riverside",
+      "rooftop",
+      "station",
+      "workshop"
+    ],
+    "unique_background_files": [
+      "res://assets/backgrounds/cafe.jpg",
+      "res://assets/backgrounds/gallery.jpg",
+      "res://assets/backgrounds/museum.jpg",
+      "res://assets/backgrounds/riverside.jpg",
+      "res://assets/backgrounds/station.jpg",
+      "res://assets/backgrounds/workshop.jpg"
+    ],
+    "visible_cgs": [
+      "song_rooftop",
+      "song_station",
+      "xia_museum",
+      "xia_rooftop",
+      "xu_cafe",
+      "xu_workshop"
+    ],
+    "music_keys": [
+      "city",
+      "ending",
+      "reflection",
+      "warm"
+    ],
+    "branch_edges_exercised": 8,
+    "choice_edges_exercised": 29,
+    "all_assets_present": true,
+    "reading_estimate": "Per legal complete path: actual node prose Han count / 500 or 300 per minute + .025 minutes per node + .25 per choice. Does not sum mutually exclusive branches. Estimate, not measured play time; excludes optional gallery/backlog and displayed unchosen options."
+  },
+  "state_tests": {
+    "check_count": 35,
+    "checks": [
+      {
+        "name": "node effects apply first entry",
+        "pass": true
+      },
+      {
+        "name": "repeat render does not replay nonzero node effect",
+        "pass": true
+      },
+      {
+        "name": "save/load does not replay nonzero node effect",
+        "pass": true
+      },
+      {
+        "name": "requires flags and affection threshold inclusive",
+        "pass": true
+      },
+      {
+        "name": "requires rejects missing flag and low affection",
+        "pass": true
+      },
+      {
+        "name": "branches choose legal fallback",
+        "pass": true
+      },
+      {
+        "name": "unmet choices hidden and keyboard index mapped",
+        "pass": true
+      },
+      {
+        "name": "programmatic illegal choice rejected",
+        "pass": true
+      },
+      {
+        "name": "legal choice applies affection and flags",
+        "pass": true
+      },
+      {
+        "name": "repeated choice during cooldown cannot duplicate effects",
+        "pass": true
+      },
+      {
+        "name": "auto mode and all progression pause inside modal",
+        "pass": true
+      },
+      {
+        "name": "double modal close safe",
+        "pass": true
+      },
+      {
+        "name": "modal close debounce",
+        "pass": true
+      },
+      {
+        "name": "read-only skip stops on unread",
+        "pass": true
+      },
+      {
+        "name": "read-only skip advances already read node",
+        "pass": true
+      },
+      {
+        "name": "auto mode pauses on choices",
+        "pass": true
+      },
+      {
+        "name": "valid save accepted",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: <null>",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: []",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: {  }",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: 42",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: broken",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: { \"version\": 1, \"game\": \"rain-promises\", \"state\": { \"affection\": { \"song\": 0, \"xia\": 5, \"x",
+        "pass": true
+      },
+      {
+        "name": "malformed/version/game save rejected: { \"version\": 2, \"game\": \"wrong-game\", \"state\": { \"affection\": { \"song\": 0, \"xia\": 5, \"xu\":",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected node",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected affection",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected history",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected visited",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected collections",
+        "pass": true
+      },
+      {
+        "name": "invalid field rejected flags",
+        "pass": true
+      },
+      {
+        "name": "invalid affection type rejected",
+        "pass": true
+      },
+      {
+        "name": "missing save preserves progress and reports error",
+        "pass": true
+      },
+      {
+        "name": "corrupt JSON save preserves progress and reports error",
+        "pass": true
+      },
+      {
+        "name": "new game resets route state",
+        "pass": true
+      },
+      {
+        "name": "title resets progression modes",
+        "pass": true
+      }
+    ],
+    "engine": "4.6.3-stable (official)",
+    "failures": [],
+    "passed": true,
+    "scope": "Independent runtime synthetic state tests; does not replace full story witnesses"
+  },
+  "full_story_runtime": {
+    "actual_cgs_shown": 6,
+    "actual_portrait_states_shown": 27,
+    "checks": 4631,
+    "engine": "4.6.3-stable (official)",
+    "failures": [],
+    "limitation": "Headless engine test; texture loaded and UI visibility asserted, not GPU visual rendering.",
+    "pass": true,
+    "paths": [
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_friendship",
+        "nodes": 277
+      },
+      {
+        "ending": "xu_romance",
+        "nodes": 311
+      },
+      {
+        "ending": "xu_friendship",
+        "nodes": 308
+      },
+      {
+        "ending": "song_romance",
+        "nodes": 289
+      },
+      {
+        "ending": "song_friendship",
+        "nodes": 288
+      },
+      {
+        "ending": "solo",
+        "nodes": 207
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xia_romance",
+        "nodes": 281
+      },
+      {
+        "ending": "xu_romance",
+        "nodes": 311
+      },
+      {
+        "ending": "song_romance",
+        "nodes": 289
+      },
+      {
+        "ending": "solo",
+        "nodes": 207
+      }
+    ],
+    "textures_loaded": {
+      "backgrounds": 6,
+      "cg": 6,
+      "portraits": 27
+    }
+  },
+  "audio_wiring": {
+    "audio_listened": false,
+    "checks": [
+      {
+        "name": "music selected and looping city",
+        "pass": true
+      },
+      {
+        "name": "music selected and looping warm",
+        "pass": true
+      },
+      {
+        "name": "music selected and looping reflection",
+        "pass": true
+      },
+      {
+        "name": "music selected and looping ending",
+        "pass": true
+      },
+      {
+        "name": "rain selected and looping",
+        "pass": true
+      },
+      {
+        "name": "sfx runtime page",
+        "pass": true
+      },
+      {
+        "name": "sfx runtime ui",
+        "pass": true
+      },
+      {
+        "name": "sfx runtime camera",
+        "pass": true
+      },
+      {
+        "name": "mute switches actual master bus",
+        "pass": true
+      },
+      {
+        "name": "zero sliders silence all playback channels",
+        "pass": true
+      }
+    ],
+    "failures": [],
+    "note": "Headless stream resource/loop/volume wiring test only. Objective decode/peak analysis separately supplied; no listening claim.",
+    "pass": true,
+    "runtime_assets_selected": 8
+  },
+  "crossfade_tests": {
+    "checks": 27,
+    "failures": [],
+    "note": "Audio stream/loop/crossfade state only; dummy audio device, no listening QA",
+    "pass": true
+  },
+  "visual_QA": {
+    "pass": true,
+    "inspected_runtime_decoded_images": 12,
+    "method": "Godot loads actual imported texture resources and saves decoded images. Auditor inspects all twelve in a contact sheet with native-resolution detail strips; also inspects five new exported-Linux-native screenshots.",
+    "contact_sheet": "tests/r2/all_12_imported_textures_contact.png",
+    "screenshots": [
+      "screenshots/screenshot_d5_print_010.png",
+      "screenshots/screenshot_d6_xu_test_013.png",
+      "screenshots/screenshot_d8_song_roof_002.png",
+      "screenshots/screenshot_d8_xia_evening_006.png",
+      "screenshots/screenshot_title.png"
+    ],
+    "observations": [
+      "All 12 compressed background/CG resources retain complete framing, coherent gradients and fine architectural/fabric detail in inspected views; no visually disruptive block artifacts or new banding observed. PSNR is quantitative support, not a substitute for visual review.",
+      "New native title, Xia seated portrait, Xu workshop CG, Song rooftop CG and three-option scene show clear Chinese glyphs, no tofu boxes, intact toolbar/options and clean CG letterbox.",
+      "Portrait transparency and all portrait bytes are unchanged; source BG/CG image bytes unchanged. Lossy compression occurs only in Godot import resources.",
+      "Renamed subset retains every required glyph outline exactly; name table family/full/PostScript and CFF names use Rain Promises. Original full font and OFL/copyright retained."
+    ],
+    "native_interaction_evidence": {
+      "platform": "Linux x86_64, Godot 4.6.3, Mesa llvmpipe",
+      "tested_surface": "Actual native Godot window through cloud desktop UI; exported Linux binary additionally launched",
+      "checks": [
+        "Photographic title, full-body standing and seated sprites are visible without text obscuring faces",
+        "Three-choice route selector and complete bottom toolbar fit inside 16:9 canvas",
+        "Longest production text: 102 Unicode characters renders fully",
+        "Manual slot 1 saved with visible chapter and timestamp",
+        "Choose Xu route, view seated pose, open load confirmation and restore checkpoint",
+        "Interrupt own game process via Terminal Ctrl+C, restart, see existing manual/autosave slots and restore autosave",
+        "Final full-story schedule third option reveals Song/solo second-stage choices; Song selection enters correct station scene",
+        "Settings modal fits on screen; music slider changes to 0.2 while SFX remains 0.5, mute true; persisted profile verified",
+        "Linux release executable generated final title, Xia dialogue, Xu CG, Song CG, and route selector screenshots",
+        "CG framing corrected to plain letterbox without mismatched background seams"
+      ],
+      "limitations": [
+        "No actual Windows execution",
+        "No WebGL 2 runtime available in cloud browser; static export/fallback checks only",
+        "No real mobile touch hardware tested",
+        "No audio output device: Godot fell back to dummy audio driver; no audible or human listening QA"
+      ],
+      "state": "PASS with disclosed environment limitations",
+      "version": "1.0.1",
+      "r2_additional_native_checks": [
+        "Rebuilt Linux release executed with compact renamed font and quality-0.92 BG/CG imports",
+        "Five release screenshots recaptured and inspected: title, longest dialogue, Xu CG, Song rooftop CG, three-option route selector",
+        "New game → manual slot 1 with timestamp → advance two paragraphs → load confirmation → correct first paragraph restored",
+        "All visible Chinese, punctuation, numerals and metadata labels rendered cleanly; no missing glyph boxes"
+      ]
+    }
+  },
+  "remaining_known_defects": [],
+  "limitations": [
+    "No Windows machine execution or rendering verification.",
+    "No actual WebGL2-capable browser gameplay, browser persistence or audio gesture-policy verification.",
+    "No real mobile-touch hardware test.",
+    "Native environment uses dummy audio output; stream/decode/loop/peak/crossfade checks only, no human or audio-perception listening QA.",
+    "Reading times are per-path text/pacing estimates, not measured human sessions.",
+    "Native UI interaction sequence is reported by engineer; independent auditor reran engine checks and inspected supplied native release screenshot files."
+  ],
+  "release_recommendation": "Approve freeze of this exact r2 source and assets; preserve disclosed platform/listening limits. Re-test if source/assets change."
+}

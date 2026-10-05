@@ -1,0 +1,135 @@
+{
+  "pass": true,
+  "errors": [],
+  "nodes": 649,
+  "legal_states": 10755,
+  "reachable_nodes": 649,
+  "endings": 7,
+  "total_story_chars": 36772,
+  "routes": {
+    "solo": {
+      "min_chars": 12125,
+      "max_chars": 12158,
+      "min_nodes": 207,
+      "max_nodes": 207,
+      "estimated_minutes_250_to_450_chars_per_min": [
+        26.9,
+        48.6
+      ]
+    },
+    "xia_friendship": {
+      "min_chars": 15280,
+      "max_chars": 15579,
+      "min_nodes": 273,
+      "max_nodes": 281,
+      "estimated_minutes_250_to_450_chars_per_min": [
+        34.0,
+        62.3
+      ]
+    },
+    "xia_romance": {
+      "min_chars": 15588,
+      "max_chars": 15621,
+      "min_nodes": 281,
+      "max_nodes": 281,
+      "estimated_minutes_250_to_450_chars_per_min": [
+        34.6,
+        62.5
+      ]
+    },
+    "song_friendship": {
+      "min_chars": 16054,
+      "max_chars": 16205,
+      "min_nodes": 287,
+      "max_nodes": 290,
+      "estimated_minutes_250_to_450_chars_per_min": [
+        35.7,
+        64.8
+      ]
+    },
+    "song_romance": {
+      "min_chars": 16070,
+      "max_chars": 16103,
+      "min_nodes": 289,
+      "max_nodes": 289,
+      "estimated_minutes_250_to_450_chars_per_min": [
+        35.7,
+        64.4
+      ]
+    },
+    "xu_friendship": {
+      "min_chars": 17775,
+      "max_chars": 18022,
+      "min_nodes": 308,
+      "max_nodes": 311,
+      "estimated_minutes_250_to_450_chars_per_min": [
+        39.5,
+        72.1
+      ]
+    },
+    "xu_romance": {
+      "min_chars": 17866,
+      "max_chars": 17899,
+      "min_nodes": 311,
+      "max_nodes": 311,
+      "estimated_minutes_250_to_450_chars_per_min": [
+        39.7,
+        71.6
+      ]
+    }
+  },
+  "pose_expression_coverage": {
+    "xia": [
+      "action_determined",
+      "action_neutral",
+      "action_surprised",
+      "seated_neutral",
+      "seated_sad",
+      "seated_smile",
+      "standing_neutral",
+      "standing_smile",
+      "standing_thoughtful"
+    ],
+    "xu": [
+      "action_determined",
+      "action_neutral",
+      "action_surprised",
+      "seated_neutral",
+      "seated_sad",
+      "seated_smile",
+      "standing_neutral",
+      "standing_smile",
+      "standing_thoughtful"
+    ],
+    "song": [
+      "action_determined",
+      "action_neutral",
+      "action_surprised",
+      "seated_neutral",
+      "seated_sad",
+      "seated_smile",
+      "standing_neutral",
+      "standing_smile",
+      "standing_thoughtful"
+    ]
+  },
+  "cg_used": [
+    "song_rooftop",
+    "song_station",
+    "xia_museum",
+    "xia_rooftop",
+    "xu_cafe",
+    "xu_workshop"
+  ],
+  "background_keys_used": [
+    "cafe",
+    "gallery",
+    "hospital_exterior",
+    "museum",
+    "riverside",
+    "rooftop",
+    "station",
+    "workshop"
+  ],
+  "reading_estimate_method": "Visible Unicode characters / 250–450 characters per minute; choices and pauses add time. State-equivalent merged paths may omit alternative path length extremes."
+}

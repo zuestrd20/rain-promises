@@ -1,0 +1,99 @@
+{
+  "pass": true,
+  "content_files_compared": 49,
+  "changed_content": [],
+  "font_codepoints_required": 1523,
+  "missing_subset_codepoints": [],
+  "glyph_outlines_different_from_original": [],
+  "font_names": {
+    "1": [
+      "Rain Promises CJK Subset"
+    ],
+    "2": [
+      "Regular"
+    ],
+    "3": [
+      "RainPromisesCJKSubset-1.0"
+    ],
+    "4": [
+      "Rain Promises CJK Subset"
+    ],
+    "6": [
+      "RainPromisesCJKSubset-Regular"
+    ],
+    "16": [],
+    "17": []
+  },
+  "CFF_font_names": [
+    "RainPromisesCJKSubset-Regular"
+  ],
+  "CFF_full_name": "Rain Promises CJK Subset",
+  "CFF_family_name": "Rain Promises CJK Subset",
+  "full_original_font_matches_r1": true,
+  "OFL_preserved": true,
+  "copyright_name_table_preserved": true,
+  "texture_imports": [
+    {
+      "file": "assets/backgrounds/workshop.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/backgrounds/cafe.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/backgrounds/station.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/backgrounds/museum.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/backgrounds/riverside.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/backgrounds/gallery.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/cg/xu_cafe.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/cg/song_station.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/cg/xu_workshop.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/cg/song_rooftop.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/cg/xia_rooftop.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    },
+    {
+      "file": "assets/cg/xia_museum.jpg.import",
+      "quality92": true,
+      "lossy_mode": true
+    }
+  ],
+  "main_sha256": "ec262fb17664e8ebb5f502429d03368281c1ce048bd0c04c9c4a48457948231a",
+  "story_sha256": "16332ab41d2ed649d38eb421a18a8ae8dbb7c8a7b96a8058ab32b635d1b04416"
+}

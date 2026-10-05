@@ -1,0 +1,74 @@
+[
+  {
+    "image": "res://assets/backgrounds/museum.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 43.05,
+    "mean_absolute_channel_difference": 1.327
+  },
+  {
+    "image": "res://assets/backgrounds/riverside.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 41.65,
+    "mean_absolute_channel_difference": 1.55
+  },
+  {
+    "image": "res://assets/backgrounds/workshop.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 42.25,
+    "mean_absolute_channel_difference": 1.477
+  },
+  {
+    "image": "res://assets/backgrounds/cafe.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 42.21,
+    "mean_absolute_channel_difference": 1.469
+  },
+  {
+    "image": "res://assets/backgrounds/station.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 41.37,
+    "mean_absolute_channel_difference": 1.611
+  },
+  {
+    "image": "res://assets/backgrounds/gallery.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 43.01,
+    "mean_absolute_channel_difference": 1.343
+  },
+  {
+    "image": "res://assets/cg/xia_museum.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 42.68,
+    "mean_absolute_channel_difference": 1.399
+  },
+  {
+    "image": "res://assets/cg/xia_rooftop.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 43.31,
+    "mean_absolute_channel_difference": 1.271
+  },
+  {
+    "image": "res://assets/cg/xu_workshop.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 42.31,
+    "mean_absolute_channel_difference": 1.466
+  },
+  {
+    "image": "res://assets/cg/xu_cafe.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 42.25,
+    "mean_absolute_channel_difference": 1.469
+  },
+  {
+    "image": "res://assets/cg/song_station.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 42.63,
+    "mean_absolute_channel_difference": 1.409
+  },
+  {
+    "image": "res://assets/cg/song_rooftop.jpg",
+    "dimensions_preserved": true,
+    "source_vs_imported_PSNR_db": 42.05,
+    "mean_absolute_channel_difference": 1.498
+  }
+]

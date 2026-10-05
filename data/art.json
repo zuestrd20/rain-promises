@@ -1,0 +1,59 @@
+{
+  "characters": {
+    "xia": {
+      "standing_neutral": "res://assets/characters/xia_standing_neutral.webp",
+      "standing_smile": "res://assets/characters/xia_standing_smile.webp",
+      "standing_thoughtful": "res://assets/characters/xia_standing_thoughtful.webp",
+      "seated_neutral": "res://assets/characters/xia_seated_neutral.webp",
+      "seated_smile": "res://assets/characters/xia_seated_smile.webp",
+      "seated_sad": "res://assets/characters/xia_seated_sad.webp",
+      "action_neutral": "res://assets/characters/xia_action_neutral.webp",
+      "action_surprised": "res://assets/characters/xia_action_surprised.webp",
+      "action_determined": "res://assets/characters/xia_action_determined.webp"
+    },
+    "xu": {
+      "standing_neutral": "res://assets/characters/xu_standing_neutral.webp",
+      "standing_smile": "res://assets/characters/xu_standing_smile.webp",
+      "standing_thoughtful": "res://assets/characters/xu_standing_thoughtful.webp",
+      "seated_neutral": "res://assets/characters/xu_seated_neutral.webp",
+      "seated_smile": "res://assets/characters/xu_seated_smile.webp",
+      "seated_sad": "res://assets/characters/xu_seated_sad.webp",
+      "action_neutral": "res://assets/characters/xu_action_neutral.webp",
+      "action_surprised": "res://assets/characters/xu_action_surprised.webp",
+      "action_determined": "res://assets/characters/xu_action_determined.webp"
+    },
+    "song": {
+      "standing_neutral": "res://assets/characters/song_standing_neutral.webp",
+      "standing_smile": "res://assets/characters/song_standing_smile.webp",
+      "standing_thoughtful": "res://assets/characters/song_standing_thoughtful.webp",
+      "seated_neutral": "res://assets/characters/song_seated_neutral.webp",
+      "seated_smile": "res://assets/characters/song_seated_smile.webp",
+      "seated_sad": "res://assets/characters/song_seated_sad.webp",
+      "action_neutral": "res://assets/characters/song_action_neutral.webp",
+      "action_surprised": "res://assets/characters/song_action_surprised.webp",
+      "action_determined": "res://assets/characters/song_action_determined.webp"
+    }
+  },
+  "backgrounds": {
+    "museum": "res://assets/backgrounds/museum.jpg",
+    "riverside": "res://assets/backgrounds/riverside.jpg",
+    "workshop": "res://assets/backgrounds/workshop.jpg",
+    "cafe": "res://assets/backgrounds/cafe.jpg",
+    "station": "res://assets/backgrounds/station.jpg",
+    "gallery": "res://assets/backgrounds/gallery.jpg",
+    "rooftop": "res://assets/backgrounds/riverside.jpg",
+    "hospital_exterior": "res://assets/backgrounds/station.jpg"
+  },
+  "cg": {
+    "xia_museum": "res://assets/cg/xia_museum.jpg",
+    "xia_rooftop": "res://assets/cg/xia_rooftop.jpg",
+    "xu_workshop": "res://assets/cg/xu_workshop.jpg",
+    "xu_cafe": "res://assets/cg/xu_cafe.jpg",
+    "song_station": "res://assets/cg/song_station.jpg",
+    "song_rooftop": "res://assets/cg/song_rooftop.jpg"
+  },
+  "aliases": {
+    "rooftop": "riverside",
+    "hospital_exterior": "station"
+  }
+}

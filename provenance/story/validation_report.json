@@ -1,0 +1,387 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "node_count": 649,
+  "max_node_unicode_chars": 102,
+  "total_visible_prose_unicode_chars": 36772,
+  "total_visible_prose_han_chars": 33075,
+  "distinct_text_ratio": 1.0,
+  "choice_node_count": 14,
+  "all_stateful_playthroughs_tested": 200,
+  "reachable_endings": 7,
+  "bg_references": [
+    "cafe",
+    "gallery",
+    "hospital_exterior",
+    "museum",
+    "riverside",
+    "rooftop",
+    "station",
+    "workshop"
+  ],
+  "cg_references": [
+    "song_rooftop",
+    "song_station",
+    "xia_museum",
+    "xia_rooftop",
+    "xu_cafe",
+    "xu_workshop"
+  ],
+  "pose_references": [
+    "action",
+    "seated",
+    "standing"
+  ],
+  "expression_references": [
+    "determined",
+    "neutral",
+    "sad",
+    "smile",
+    "surprised",
+    "thoughtful"
+  ],
+  "collectibles_reachable": [
+    "card_clay",
+    "card_cloud",
+    "card_depart",
+    "card_empty",
+    "card_river",
+    "card_seat",
+    "card_stars",
+    "card_time"
+  ],
+  "reading_estimate_method": "Chinese Han characters / 500 fast or / 300 leisurely + 0.025 min per node + 0.25 min per choice. A pacing estimate, not measured playtest.",
+  "visible_portraits_by_actor": {
+    "xia": [
+      "action_determined",
+      "action_neutral",
+      "action_surprised",
+      "seated_neutral",
+      "seated_sad",
+      "seated_smile",
+      "standing_neutral",
+      "standing_smile",
+      "standing_thoughtful"
+    ],
+    "xu": [
+      "action_determined",
+      "action_neutral",
+      "action_surprised",
+      "seated_neutral",
+      "seated_sad",
+      "seated_smile",
+      "standing_neutral",
+      "standing_smile",
+      "standing_thoughtful"
+    ],
+    "song": [
+      "action_determined",
+      "action_neutral",
+      "action_surprised",
+      "seated_neutral",
+      "seated_sad",
+      "seated_smile",
+      "standing_neutral",
+      "standing_smile",
+      "standing_thoughtful"
+    ]
+  },
+  "endings": {
+    "xia_romance": {
+      "title": "雨停之前的約定",
+      "playthrough_count": 8,
+      "min_han_chars": 13922,
+      "max_han_chars": 13953,
+      "min_visible_chars": 15503,
+      "max_visible_chars": 15532,
+      "min_nodes": 281,
+      "max_nodes": 281,
+      "estimated_minutes_fast": 36.6,
+      "estimated_minutes_leisurely": 55.3
+    },
+    "xia_friendship": {
+      "title": "同一座城市的方向",
+      "playthrough_count": 56,
+      "min_han_chars": 13654,
+      "max_han_chars": 13928,
+      "min_visible_chars": 15196,
+      "max_visible_chars": 15491,
+      "min_nodes": 273,
+      "max_nodes": 281,
+      "estimated_minutes_fast": 35.9,
+      "estimated_minutes_leisurely": 55.2
+    },
+    "xu_romance": {
+      "title": "留一個週四給你",
+      "playthrough_count": 8,
+      "min_han_chars": 15939,
+      "max_han_chars": 15970,
+      "min_visible_chars": 17769,
+      "max_visible_chars": 17798,
+      "min_nodes": 311,
+      "max_nodes": 311,
+      "estimated_minutes_fast": 41.4,
+      "estimated_minutes_leisurely": 62.8
+    },
+    "xu_friendship": {
+      "title": "不必變成別的關係",
+      "playthrough_count": 56,
+      "min_han_chars": 15866,
+      "max_han_chars": 16090,
+      "min_visible_chars": 17679,
+      "max_visible_chars": 17920,
+      "min_nodes": 308,
+      "max_nodes": 311,
+      "estimated_minutes_fast": 41.2,
+      "estimated_minutes_leisurely": 63.2
+    },
+    "song_romance": {
+      "title": "下一次約會的時間",
+      "playthrough_count": 8,
+      "min_han_chars": 14328,
+      "max_han_chars": 14359,
+      "min_visible_chars": 15967,
+      "max_visible_chars": 15996,
+      "min_nodes": 289,
+      "max_nodes": 289,
+      "estimated_minutes_fast": 37.9,
+      "estimated_minutes_leisurely": 57.1
+    },
+    "song_friendship": {
+      "title": "下次再交換照片",
+      "playthrough_count": 56,
+      "min_han_chars": 14314,
+      "max_han_chars": 14446,
+      "min_visible_chars": 15949,
+      "max_visible_chars": 16094,
+      "min_nodes": 287,
+      "max_nodes": 290,
+      "estimated_minutes_fast": 37.8,
+      "estimated_minutes_leisurely": 57.4
+    },
+    "solo": {
+      "title": "在自己的畫面之外",
+      "playthrough_count": 8,
+      "min_han_chars": 10832,
+      "max_han_chars": 10863,
+      "min_visible_chars": 12063,
+      "max_visible_chars": 12092,
+      "min_nodes": 207,
+      "max_nodes": 207,
+      "estimated_minutes_fast": 28.1,
+      "estimated_minutes_leisurely": 42.6
+    }
+  },
+  "witness_choices": {
+    "xia_romance": [
+      {
+        "node": "d1_museum_020",
+        "choice": "邀請她共同寫說明卡"
+      },
+      {
+        "node": "d2_cafe_017",
+        "choice": "把夜間開放縮成可執行的一晚"
+      },
+      {
+        "node": "d3_gallery_010",
+        "choice": "保留版位，改用空展間照片"
+      },
+      {
+        "node": "d5_print_010",
+        "choice": "和以寧完成《抬頭之前》"
+      },
+      {
+        "node": "d6_xia_map_009",
+        "choice": "一起帶活動，拍攝服從現場需要"
+      },
+      {
+        "node": "d7_xia_credit_007",
+        "choice": "留一小時共同改稿，保留兩個聲音"
+      },
+      {
+        "node": "d8_xia_evening_011",
+        "choice": "明確邀請她在展覽後約會"
+      }
+    ],
+    "xia_friendship": [
+      {
+        "node": "d1_museum_020",
+        "choice": "邀請她共同寫說明卡"
+      },
+      {
+        "node": "d2_cafe_017",
+        "choice": "把夜間開放縮成可執行的一晚"
+      },
+      {
+        "node": "d3_gallery_010",
+        "choice": "保留版位，改用空展間照片"
+      },
+      {
+        "node": "d5_print_010",
+        "choice": "和以寧完成《抬頭之前》"
+      },
+      {
+        "node": "d6_xia_map_009",
+        "choice": "一起帶活動，拍攝服從現場需要"
+      },
+      {
+        "node": "d7_xia_credit_007",
+        "choice": "留一小時共同改稿，保留兩個聲音"
+      },
+      {
+        "node": "d8_xia_evening_011",
+        "choice": "約下一次以朋友身分吃飯"
+      }
+    ],
+    "xu_romance": [
+      {
+        "node": "d1_museum_020",
+        "choice": "邀請她共同寫說明卡"
+      },
+      {
+        "node": "d2_cafe_017",
+        "choice": "把夜間開放縮成可執行的一晚"
+      },
+      {
+        "node": "d3_gallery_010",
+        "choice": "保留版位，改用空展間照片"
+      },
+      {
+        "node": "d5_print_010",
+        "choice": "和芷禾完成《一只杯子的工時》"
+      },
+      {
+        "node": "d6_xu_credit_008",
+        "choice": "確認共同署名，也共同決定後續改版"
+      },
+      {
+        "node": "d7_xu_scope_009",
+        "choice": "一起守住原定範圍，完成既有觸控展示"
+      },
+      {
+        "node": "d8_xu_tea_010",
+        "choice": "坦白我喜歡她，想以約會的方式相處"
+      }
+    ],
+    "xu_friendship": [
+      {
+        "node": "d1_museum_020",
+        "choice": "邀請她共同寫說明卡"
+      },
+      {
+        "node": "d2_cafe_017",
+        "choice": "把夜間開放縮成可執行的一晚"
+      },
+      {
+        "node": "d3_gallery_010",
+        "choice": "保留版位，改用空展間照片"
+      },
+      {
+        "node": "d5_print_010",
+        "choice": "和芷禾完成《一只杯子的工時》"
+      },
+      {
+        "node": "d6_xu_credit_008",
+        "choice": "確認共同署名，也共同決定後續改版"
+      },
+      {
+        "node": "d7_xu_scope_009",
+        "choice": "一起守住原定範圍，完成既有觸控展示"
+      },
+      {
+        "node": "d8_xu_tea_010",
+        "choice": "明確說出，我想繼續成為她的朋友"
+      }
+    ],
+    "song_romance": [
+      {
+        "node": "d1_museum_020",
+        "choice": "邀請她共同寫說明卡"
+      },
+      {
+        "node": "d2_cafe_017",
+        "choice": "把夜間開放縮成可執行的一晚"
+      },
+      {
+        "node": "d3_gallery_010",
+        "choice": "保留版位，改用空展間照片"
+      },
+      {
+        "node": "d5_print_010",
+        "choice": "選若安的系列，或自己的河岸系列"
+      },
+      {
+        "node": "route_choose_pair",
+        "choice": "和若安完成《離站之後》"
+      },
+      {
+        "node": "d6_song_map_012",
+        "choice": "共同縮成四十分鐘，準時收工"
+      },
+      {
+        "node": "d7_song_print_009",
+        "choice": "共同重排，保留彼此的原圖與選擇"
+      },
+      {
+        "node": "d8_song_roof_010",
+        "choice": "坦白喜歡她，想以戀愛的方向相處"
+      }
+    ],
+    "song_friendship": [
+      {
+        "node": "d1_museum_020",
+        "choice": "邀請她共同寫說明卡"
+      },
+      {
+        "node": "d2_cafe_017",
+        "choice": "把夜間開放縮成可執行的一晚"
+      },
+      {
+        "node": "d3_gallery_010",
+        "choice": "保留版位，改用空展間照片"
+      },
+      {
+        "node": "d5_print_010",
+        "choice": "選若安的系列，或自己的河岸系列"
+      },
+      {
+        "node": "route_choose_pair",
+        "choice": "和若安完成《離站之後》"
+      },
+      {
+        "node": "d6_song_map_012",
+        "choice": "共同縮成四十分鐘，準時收工"
+      },
+      {
+        "node": "d7_song_print_009",
+        "choice": "共同重排，保留彼此的原圖與選擇"
+      },
+      {
+        "node": "d8_song_roof_010",
+        "choice": "清楚提出展覽之後也繼續做朋友"
+      }
+    ],
+    "solo": [
+      {
+        "node": "d1_museum_020",
+        "choice": "邀請她共同寫說明卡"
+      },
+      {
+        "node": "d2_cafe_017",
+        "choice": "把夜間開放縮成可執行的一晚"
+      },
+      {
+        "node": "d3_gallery_010",
+        "choice": "保留版位，改用空展間照片"
+      },
+      {
+        "node": "d5_print_010",
+        "choice": "選若安的系列，或自己的河岸系列"
+      },
+      {
+        "node": "route_choose_pair",
+        "choice": "先完成自己的河岸與空間系列"
+      }
+    ]
+  }
+}

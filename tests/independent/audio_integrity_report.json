@@ -1,0 +1,69 @@
+{
+  "pass": true,
+  "assets": [
+    {
+      "id": "music_city",
+      "runtime_sha256": "e0237692fe4e169b15788445d81be702c94257e3dd7380e00e2ba856fe4846e0",
+      "manifest_sha256_matches": true,
+      "independent_ffmpeg_decode_pass": true,
+      "error": "",
+      "listened": false
+    },
+    {
+      "id": "music_warm",
+      "runtime_sha256": "da816423608a0f55a4a0dd4b442c1f3d71675667cb2005adc3206521d4cd4d17",
+      "manifest_sha256_matches": true,
+      "independent_ffmpeg_decode_pass": true,
+      "error": "",
+      "listened": false
+    },
+    {
+      "id": "music_reflection",
+      "runtime_sha256": "8e261a3f998a953c64adad5802dbce9d7dcced5f5a8e1dd188c79bd45090cc23",
+      "manifest_sha256_matches": true,
+      "independent_ffmpeg_decode_pass": true,
+      "error": "",
+      "listened": false
+    },
+    {
+      "id": "music_ending",
+      "runtime_sha256": "75c37f184762c8ba1446ad948294cd0557a289b16005ece56c18e2d9e7b2dd98",
+      "manifest_sha256_matches": true,
+      "independent_ffmpeg_decode_pass": true,
+      "error": "",
+      "listened": false
+    },
+    {
+      "id": "ambience_rain",
+      "runtime_sha256": "56304d265bad3f14b098577cc3a9f05eca79bd467935a90b91a9c81d2b7f0f3c",
+      "manifest_sha256_matches": true,
+      "independent_ffmpeg_decode_pass": true,
+      "error": "",
+      "listened": false
+    },
+    {
+      "id": "sfx_page",
+      "runtime_sha256": "8500555d2c359186c90ac639259e264aaa9e05a6ddd4fdb1bd0ead8248739fe8",
+      "manifest_sha256_matches": true,
+      "independent_ffmpeg_decode_pass": true,
+      "error": "",
+      "listened": false
+    },
+    {
+      "id": "sfx_camera",
+      "runtime_sha256": "522b8fc3c60104d94275e24d5675b9a39d1e48d2375d8e29752fdb9edfa9f3c8",
+      "manifest_sha256_matches": true,
+      "independent_ffmpeg_decode_pass": true,
+      "error": "",
+      "listened": false
+    },
+    {
+      "id": "sfx_ui",
+      "runtime_sha256": "5dbe5377fb9e5dfdb767309f6c086afc680b979684c10c3df2096c5d1bea473b",
+      "manifest_sha256_matches": true,
+      "independent_ffmpeg_decode_pass": true,
+      "error": "",
+      "listened": false
+    }
+  ]
+}

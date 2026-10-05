@@ -1,0 +1,76 @@
+{
+  "actual_cgs_shown": 6,
+  "actual_portrait_states_shown": 27,
+  "checks": 4631,
+  "engine": "4.6.3-stable (official)",
+  "failures": [],
+  "limitation": "Headless engine test; texture loaded and UI visibility asserted, not GPU visual rendering.",
+  "pass": true,
+  "paths": [
+    {
+      "ending": "xia_romance",
+      "nodes": 281
+    },
+    {
+      "ending": "xia_friendship",
+      "nodes": 277
+    },
+    {
+      "ending": "xu_romance",
+      "nodes": 311
+    },
+    {
+      "ending": "xu_friendship",
+      "nodes": 308
+    },
+    {
+      "ending": "song_romance",
+      "nodes": 289
+    },
+    {
+      "ending": "song_friendship",
+      "nodes": 288
+    },
+    {
+      "ending": "solo",
+      "nodes": 207
+    },
+    {
+      "ending": "xia_romance",
+      "nodes": 281
+    },
+    {
+      "ending": "xia_romance",
+      "nodes": 281
+    },
+    {
+      "ending": "xia_romance",
+      "nodes": 281
+    },
+    {
+      "ending": "xia_romance",
+      "nodes": 281
+    },
+    {
+      "ending": "xia_romance",
+      "nodes": 281
+    },
+    {
+      "ending": "xu_romance",
+      "nodes": 311
+    },
+    {
+      "ending": "song_romance",
+      "nodes": 289
+    },
+    {
+      "ending": "solo",
+      "nodes": 207
+    }
+  ],
+  "textures_loaded": {
+    "backgrounds": 6,
+    "cg": 6,
+    "portraits": 27
+  }
+}

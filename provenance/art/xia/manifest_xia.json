@@ -1,0 +1,424 @@
+{
+  "person": "xia",
+  "name": "夏以寧",
+  "age": 28,
+  "description": "Original fictional adult Taiwanese planetarium educator; all images made with built-in image generation, no real-person reference.",
+  "identity_master": "originals/xia_master.png",
+  "assets": [
+    {
+      "id": "museum",
+      "person": null,
+      "kind": "backgrounds",
+      "pose": null,
+      "expr": null,
+      "width": 1672,
+      "height": 941,
+      "relative_path": "backgrounds/museum.png",
+      "source_relative_path": "backgrounds/museum.png",
+      "prompt": "Use case: photorealistic-natural. A landscape 16:9 cinematic photographic background for an adult romance visual novel. Fictional modern Taiwanese city planetarium interior: quiet spacious astronomy exhibition hall, architectural curved star dome entrance in background with a subtle projected starfield inside, sleek dark blue-grey walls and tasteful warm amber recessed lighting, elegant small astronomical display plinths with abstract unlabelled objects, large rain-streaked glass windows along one side catching soft grey daylight. Eye-level 35mm editorial photograph, believable architecture and realistic material textures, low saturation cool grey-blue rainy-city palette with warm window light, atmospheric but well-exposed. Empty foreground suitable for standing characters. No people, no faces, no readable signs or words, no lettering, no logos, no brand, no illustration or drawing. Original fictional setting. Wide full scene 1600x900.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": null,
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "a241eae0f371c533e311a96b1a0804bc13f80f8b06916980e7716c8ad622a911"
+    },
+    {
+      "id": "riverside",
+      "person": null,
+      "kind": "backgrounds",
+      "pose": null,
+      "expr": null,
+      "width": 1672,
+      "height": 941,
+      "relative_path": "backgrounds/riverside.png",
+      "source_relative_path": "backgrounds/riverside.png",
+      "prompt": "Use case: photorealistic-natural. Landscape 16:9 cinematic photograph of an ORIGINAL FICTIONAL Taiwanese city riverside pedestrian promenade at early morning just after rain. Wet smooth path with soft puddle reflections, secure metal railing beside calm broad river, planted trees with droplets and dark green leaves, distant modest city buildings and a bridge softened by mist, a few warm apartment window lights reflected in blue-grey water. Quiet contemplative hopeful atmosphere. Empty foreground and natural eye-level perspective. Realistic 35mm editorial photography, realistic wet concrete/metal/foliage, natural soft rainy-city daylight, low saturation cool grey-blue palette with muted warm accents. Absolutely no people, no readable signs/text, no logos/brands, no illustration, no anime, no painterly style, no fantasy. 1600x900 wide full scene.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": null,
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "8ac9dcf2e8551cf190e8cc682779c92ea02e32f031817f5ff6a852150c381ced"
+    },
+    {
+      "id": "xia_museum",
+      "person": "xia",
+      "kind": "cg",
+      "pose": null,
+      "expr": null,
+      "width": 1672,
+      "height": 941,
+      "relative_path": "cg/xia_museum.png",
+      "source_relative_path": "cg/xia_museum.png",
+      "prompt": "Use case: identity-preserve. Reference image1 fixes identity of original fictional adult Xia Yining age28. Reference image2 is setting reference. Create a single wide 16:9 PHOTOREAL CINEMATIC scene, not a spritesheet: Xia in the modern planetarium exhibition hall naturally showing the viewer an open folded star chart held by both hands at waist level, a quiet kind conversational expression, direct soft eye contact. Preserve exactly her reference face, warm brown almond eyes, subtle freckles, side-part shoulder-length straight black hair, navy overshirt over ivory tee, silver star necklace, charcoal trousers. Medium waist-up portrait, place her slightly right of center, both hands and all head visible, chart only abstract star dots and lines NO readable text. Background rain-streaked windows, dome entrance and warm amber museum lighting, atmospheric soft depth of field but realistic room. Cinematic low saturation35mm photograph, realistic skin texture, natural proportions and hands, soft rainy-city daylight cool grey-blue with warm window and display highlights. Original fictional adult woman, no real-person likeness sought, no other people, no brands, no logos, no readable words, no anime/illustration. 1600x900.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "367229d876bf666d7d05245b28718108dd68f52f336d4a9a4290aa2c63b1f393"
+    },
+    {
+      "id": "xia_rooftop",
+      "person": "xia",
+      "kind": "cg",
+      "pose": null,
+      "expr": null,
+      "width": 1672,
+      "height": 941,
+      "relative_path": "cg/xia_rooftop.png",
+      "source_relative_path": "cg/xia_rooftop.png",
+      "prompt": "Use case: identity-preserve. Input reference fixes facial identity and clothes of original fictional adult Xia Yining, 28-year-old planetarium educator. Create ONE photoreal landscape16:9 cinematic romantic scene: same adult woman on a safe spacious rooftop public observation terrace at night after rain, beside a mounted telescope on sturdy tripod. She is standing comfortably on level ground well inside a secure waist-high railing, looking toward camera with a genuine gentle smile as if sharing a quiet discovery. Medium three-quarter portrait, whole head and natural hands clearly within frame, one hand loosely resting on telescope mount and the other relaxed near waist. Exactly preserve reference face, brown almond eyes, subtle freckles, side-part straight black shoulder-length hair, navy overshirt ivory tee silver star necklace charcoal trousers. Cool blue-grey cloudy night sky with a few subtle stars, distant rainy city bokeh, warm practical lantern and building light softly illuminating realistic skin. Low saturation35mm photographic quality, natural proportions, cinematic still, realistic materials. No dangerous climbing or standing on edge. Original fictional scene, no other people, no readable text/brands/logos, no illustration/anime, no excessive fantasy stars. 1600x900.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "f2d7aee9762d16f9b8614c856a2ee25be2e94a93574118c72dde9e196fedf92d"
+    },
+    {
+      "id": "xia_action_determined",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "action",
+      "expr": "determined",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_action_determined.png",
+      "source_relative_path": "originals/xia_action_sheet.png",
+      "prompt": "Use case: identity-preserve. Image 1 identity reference is ORIGINAL FICTIONAL ADULT Xia Yining age28. Keep exactly her face, warm brown eyes, left-cheek subtle freckles, side-part shoulder-length black hair, navy overshirt, ivory tee, silver star necklace, charcoal trousers. Photoreal true-transparent-alpha THREE-panel sprite sheet 1536x1024. Each separate equal 512px third shows SAME woman in SAME ACTION POSE: holding a modest folded paper star chart open with both hands at waist height as though explaining it to camera; elbows comfortably near torso, fingers naturally gripping lower chart edges. No readable text on chart, only tiny abstract star dots. Head-to-mid-thigh framing, entire head and hands inside each panel; 50px transparent side gutters, no overlap, no panel labels/dividers. Left expression attentive neutral, middle subtly surprised raised brows parted lips, right quietly determined steady eyes. Expressions distinct without exaggeration, same facial identity/outfit/pose/scale in all. Natural anatomically correct hands and proportions, realistic skin texture, photoreal cinematic still, soft rainy-city daylight, muted cool greys/blues and warm reflected window light,35mm photography. Truly transparent background no floor no backdrop no cast shadows. No anime, no illustration, no painted checkerboard.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "11f7b9d91d2ff9eeef5555513bcbf822f3729eee9f1abd6f09b0474ddd5677bc",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 183561,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_action_neutral",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "action",
+      "expr": "neutral",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_action_neutral.png",
+      "source_relative_path": "originals/xia_action_sheet.png",
+      "prompt": "Use case: identity-preserve. Image 1 identity reference is ORIGINAL FICTIONAL ADULT Xia Yining age28. Keep exactly her face, warm brown eyes, left-cheek subtle freckles, side-part shoulder-length black hair, navy overshirt, ivory tee, silver star necklace, charcoal trousers. Photoreal true-transparent-alpha THREE-panel sprite sheet 1536x1024. Each separate equal 512px third shows SAME woman in SAME ACTION POSE: holding a modest folded paper star chart open with both hands at waist height as though explaining it to camera; elbows comfortably near torso, fingers naturally gripping lower chart edges. No readable text on chart, only tiny abstract star dots. Head-to-mid-thigh framing, entire head and hands inside each panel; 50px transparent side gutters, no overlap, no panel labels/dividers. Left expression attentive neutral, middle subtly surprised raised brows parted lips, right quietly determined steady eyes. Expressions distinct without exaggeration, same facial identity/outfit/pose/scale in all. Natural anatomically correct hands and proportions, realistic skin texture, photoreal cinematic still, soft rainy-city daylight, muted cool greys/blues and warm reflected window light,35mm photography. Truly transparent background no floor no backdrop no cast shadows. No anime, no illustration, no painted checkerboard.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "7645b8651ae7016d0502a40a83ec12af74da9739a74d38c7beb2254428923e63",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 183184,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_action_surprised",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "action",
+      "expr": "surprised",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_action_surprised.png",
+      "source_relative_path": "originals/xia_action_sheet.png",
+      "prompt": "Use case: identity-preserve. Image 1 identity reference is ORIGINAL FICTIONAL ADULT Xia Yining age28. Keep exactly her face, warm brown eyes, left-cheek subtle freckles, side-part shoulder-length black hair, navy overshirt, ivory tee, silver star necklace, charcoal trousers. Photoreal true-transparent-alpha THREE-panel sprite sheet 1536x1024. Each separate equal 512px third shows SAME woman in SAME ACTION POSE: holding a modest folded paper star chart open with both hands at waist height as though explaining it to camera; elbows comfortably near torso, fingers naturally gripping lower chart edges. No readable text on chart, only tiny abstract star dots. Head-to-mid-thigh framing, entire head and hands inside each panel; 50px transparent side gutters, no overlap, no panel labels/dividers. Left expression attentive neutral, middle subtly surprised raised brows parted lips, right quietly determined steady eyes. Expressions distinct without exaggeration, same facial identity/outfit/pose/scale in all. Natural anatomically correct hands and proportions, realistic skin texture, photoreal cinematic still, soft rainy-city daylight, muted cool greys/blues and warm reflected window light,35mm photography. Truly transparent background no floor no backdrop no cast shadows. No anime, no illustration, no painted checkerboard.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "1d6417af58a36794a69a633ca42f6ba82c9330ed0a65500bb370809dfccfb40b",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 184277,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_seated_neutral",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "seated",
+      "expr": "neutral",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_seated_neutral.png",
+      "source_relative_path": "originals/xia_seated_sheet.png",
+      "prompt": "Use case: identity-preserve. Image 1 is an identity reference for original fictional adult Xia Yining, 28. Preserve exactly her facial identity, brown eyes, subtle freckles, side-part shoulder-length straight black hair, navy overshirt rolled sleeves, ivory tee, silver star necklace, charcoal trousers. Create photoreal TRUE TRANSPARENT sprite sheet 1536x1024, THREE equal separate vertical panels, no dividers no text. Same adult woman same scale same SEATED pose in all three: sitting naturally upright on a simple small backless wooden stool, knees together angled slightly right, both hands relaxed together on lap, whole head and both hands visible; medium three-quarter head-to-below-knees framing. Figure and stool fit completely within each third with generous transparent gutters, no overlap. Left expression attentive neutral, middle gentle warm smile, right subdued sad slightly downcast eyes, no tears. Change expressions only, retain same identity, outfit, pose. Real skin texture, natural proportions and anatomically coherent hands. Photoreal cinematic 35mm still, soft rainy-city daylight, muted cool grey-blue and faint warm window reflections. Transparent alpha background, no backdrop/floor/shadow, no painted checkerboard, no illustration/anime. Allow 50px side margin in each panel, 50px top margin.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "e173241972500a8fb91439fd3db1efb505184890b24cb1c79f3efc8808ec782c",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 268651,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_seated_sad",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "seated",
+      "expr": "sad",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_seated_sad.png",
+      "source_relative_path": "originals/xia_seated_sheet.png",
+      "prompt": "Use case: identity-preserve. Image 1 is an identity reference for original fictional adult Xia Yining, 28. Preserve exactly her facial identity, brown eyes, subtle freckles, side-part shoulder-length straight black hair, navy overshirt rolled sleeves, ivory tee, silver star necklace, charcoal trousers. Create photoreal TRUE TRANSPARENT sprite sheet 1536x1024, THREE equal separate vertical panels, no dividers no text. Same adult woman same scale same SEATED pose in all three: sitting naturally upright on a simple small backless wooden stool, knees together angled slightly right, both hands relaxed together on lap, whole head and both hands visible; medium three-quarter head-to-below-knees framing. Figure and stool fit completely within each third with generous transparent gutters, no overlap. Left expression attentive neutral, middle gentle warm smile, right subdued sad slightly downcast eyes, no tears. Change expressions only, retain same identity, outfit, pose. Real skin texture, natural proportions and anatomically coherent hands. Photoreal cinematic 35mm still, soft rainy-city daylight, muted cool grey-blue and faint warm window reflections. Transparent alpha background, no backdrop/floor/shadow, no painted checkerboard, no illustration/anime. Allow 50px side margin in each panel, 50px top margin.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "070c86a35a9ccc2edf02a156618fe940bbb9c04617002ce24f50508bc5d56a5c",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 271925,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_seated_smile",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "seated",
+      "expr": "smile",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_seated_smile.png",
+      "source_relative_path": "originals/xia_seated_sheet.png",
+      "prompt": "Use case: identity-preserve. Image 1 is an identity reference for original fictional adult Xia Yining, 28. Preserve exactly her facial identity, brown eyes, subtle freckles, side-part shoulder-length straight black hair, navy overshirt rolled sleeves, ivory tee, silver star necklace, charcoal trousers. Create photoreal TRUE TRANSPARENT sprite sheet 1536x1024, THREE equal separate vertical panels, no dividers no text. Same adult woman same scale same SEATED pose in all three: sitting naturally upright on a simple small backless wooden stool, knees together angled slightly right, both hands relaxed together on lap, whole head and both hands visible; medium three-quarter head-to-below-knees framing. Figure and stool fit completely within each third with generous transparent gutters, no overlap. Left expression attentive neutral, middle gentle warm smile, right subdued sad slightly downcast eyes, no tears. Change expressions only, retain same identity, outfit, pose. Real skin texture, natural proportions and anatomically coherent hands. Photoreal cinematic 35mm still, soft rainy-city daylight, muted cool grey-blue and faint warm window reflections. Transparent alpha background, no backdrop/floor/shadow, no painted checkerboard, no illustration/anime. Allow 50px side margin in each panel, 50px top margin.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "81ea9292a498de708e43329dc7d1426f6dde285c3671325b175c1d46a1e80851",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 269391,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_standing_neutral",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "standing",
+      "expr": "neutral",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_standing_neutral.png",
+      "source_relative_path": "originals/xia_standing_sheet.png",
+      "prompt": "Use case: identity-preserve. Input image is the identity reference of an ORIGINAL FICTIONAL ADULT woman, Xia Yining age 28. Preserve exactly her face, eyes, subtle freckles, side-part shoulder-length black hair, navy overshirt, ivory tee, silver star necklace, charcoal trousers. Make a high resolution photoreal transparent sprite sheet, landscape 1536x1024, THREE equal vertical panels each 512px wide, NO dividers NO text. Each panel contains the SAME woman in the SAME standing relaxed pose, front three-quarter angle toward camera with arms and both hands naturally relaxed beside hips. From whole head down to mid thighs; ALL head and hands inside each panel; clear wide transparent gutters. Left facial expression: attentive neutral. Middle: warm natural closed-mouth smile. Right: thoughtful reflective gaze. Face identity unchanged; only subtle facial expression changes. Natural proportions, realistic skin texture, photographic fabric, soft rainy-city daylight, cool grey-blue and warm window reflected light, muted 35mm cinematic photo. True transparent alpha background with no grey backdrop, no floor, no shadows, no checkerboard painted into pixels. No illustration/anime/beauty smoothing. Three separated nonoverlapping figures with identical scale and framing.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "32dae134ce1a695c742971e47ffd5c9b96a514b845749d85fa549679dc3ed707",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 195050,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_standing_smile",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "standing",
+      "expr": "smile",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_standing_smile.png",
+      "source_relative_path": "originals/xia_standing_sheet.png",
+      "prompt": "Use case: identity-preserve. Input image is the identity reference of an ORIGINAL FICTIONAL ADULT woman, Xia Yining age 28. Preserve exactly her face, eyes, subtle freckles, side-part shoulder-length black hair, navy overshirt, ivory tee, silver star necklace, charcoal trousers. Make a high resolution photoreal transparent sprite sheet, landscape 1536x1024, THREE equal vertical panels each 512px wide, NO dividers NO text. Each panel contains the SAME woman in the SAME standing relaxed pose, front three-quarter angle toward camera with arms and both hands naturally relaxed beside hips. From whole head down to mid thighs; ALL head and hands inside each panel; clear wide transparent gutters. Left facial expression: attentive neutral. Middle: warm natural closed-mouth smile. Right: thoughtful reflective gaze. Face identity unchanged; only subtle facial expression changes. Natural proportions, realistic skin texture, photographic fabric, soft rainy-city daylight, cool grey-blue and warm window reflected light, muted 35mm cinematic photo. True transparent alpha background with no grey backdrop, no floor, no shadows, no checkerboard painted into pixels. No illustration/anime/beauty smoothing. Three separated nonoverlapping figures with identical scale and framing.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "31f83f0c409eed323eee73152cae7d5cfb5b8de0803a3df448cb16b2df38b78a",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 193508,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_standing_thoughtful",
+      "person": "xia",
+      "kind": "characters",
+      "pose": "standing",
+      "expr": "thoughtful",
+      "width": 512,
+      "height": 1024,
+      "relative_path": "characters/xia_standing_thoughtful.png",
+      "source_relative_path": "originals/xia_standing_sheet.png",
+      "prompt": "Use case: identity-preserve. Input image is the identity reference of an ORIGINAL FICTIONAL ADULT woman, Xia Yining age 28. Preserve exactly her face, eyes, subtle freckles, side-part shoulder-length black hair, navy overshirt, ivory tee, silver star necklace, charcoal trousers. Make a high resolution photoreal transparent sprite sheet, landscape 1536x1024, THREE equal vertical panels each 512px wide, NO dividers NO text. Each panel contains the SAME woman in the SAME standing relaxed pose, front three-quarter angle toward camera with arms and both hands naturally relaxed beside hips. From whole head down to mid thighs; ALL head and hands inside each panel; clear wide transparent gutters. Left facial expression: attentive neutral. Middle: warm natural closed-mouth smile. Right: thoughtful reflective gaze. Face identity unchanged; only subtle facial expression changes. Natural proportions, realistic skin texture, photographic fabric, soft rainy-city daylight, cool grey-blue and warm window reflected light, muted 35mm cinematic photo. True transparent alpha background with no grey backdrop, no floor, no shadows, no checkerboard painted into pixels. No illustration/anime/beauty smoothing. Three separated nonoverlapping figures with identical scale and framing.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "7b1940ed6b668ac09ddbab4cc03e7058206dfed1875e8b792eadf09b611d4e73",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 190017,
+      "processing": "Lossless extraction of one equal-width panel from generated sheet; no identity or painted pixel modification. Engine may fit proportionally within 512x880 transparent canvas."
+    },
+    {
+      "id": "xia_action_sheet",
+      "person": "xia",
+      "kind": "originals",
+      "pose": null,
+      "expr": null,
+      "width": 1536,
+      "height": 1024,
+      "relative_path": "originals/xia_action_sheet.png",
+      "source_relative_path": "originals/xia_action_sheet.png",
+      "prompt": "Use case: identity-preserve. Image 1 identity reference is ORIGINAL FICTIONAL ADULT Xia Yining age28. Keep exactly her face, warm brown eyes, left-cheek subtle freckles, side-part shoulder-length black hair, navy overshirt, ivory tee, silver star necklace, charcoal trousers. Photoreal true-transparent-alpha THREE-panel sprite sheet 1536x1024. Each separate equal 512px third shows SAME woman in SAME ACTION POSE: holding a modest folded paper star chart open with both hands at waist height as though explaining it to camera; elbows comfortably near torso, fingers naturally gripping lower chart edges. No readable text on chart, only tiny abstract star dots. Head-to-mid-thigh framing, entire head and hands inside each panel; 50px transparent side gutters, no overlap, no panel labels/dividers. Left expression attentive neutral, middle subtly surprised raised brows parted lips, right quietly determined steady eyes. Expressions distinct without exaggeration, same facial identity/outfit/pose/scale in all. Natural anatomically correct hands and proportions, realistic skin texture, photoreal cinematic still, soft rainy-city daylight, muted cool greys/blues and warm reflected window light,35mm photography. Truly transparent background no floor no backdrop no cast shadows. No anime, no illustration, no painted checkerboard.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "44286231de97b798432f9cb19feaaaa0d504f9ba23c1172758de2afcd22b6aef",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 551022
+    },
+    {
+      "id": "xia_master",
+      "person": "xia",
+      "kind": "originals",
+      "pose": null,
+      "expr": null,
+      "width": 1024,
+      "height": 1536,
+      "relative_path": "originals/xia_master.png",
+      "source_relative_path": "originals/xia_master.png",
+      "prompt": "Use case: photorealistic-natural. Create an original fictional adult woman identity master for a realistic romance visual novel, no existing real person reference. Xia Yining, 28-year-old Taiwanese planetarium educator, clearly adult mature appearance. Straight black shoulder-length hair with side part, warm brown almond-shaped eyes, a few subtle freckles on her left cheek, navy blue overshirt unbuttoned over ivory crew-neck tee, small silver star necklace, dark charcoal straight trousers. One single person standing at ease with both hands relaxed fully visible, calm gentle neutral face looking toward camera, three-quarter-to-full body portrait with complete head and hands, natural body proportions and realistic skin texture. Photoreal cinematic still, low-saturation 35mm film photography, soft rainy-city daylight with cool grey-blue tones and soft warm reflected window light. Simple unobtrusive pale grey background. High facial detail; adult woman, no beauty smoothing, no anime, no illustration, no text, no logos. Vertical portrait.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": null,
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "e570ccf62c23f7ac58fcb0f43c4236a0ad8e24567ca675396176dcd30afd162d"
+    },
+    {
+      "id": "xia_seated_sheet",
+      "person": "xia",
+      "kind": "originals",
+      "pose": null,
+      "expr": null,
+      "width": 1536,
+      "height": 1024,
+      "relative_path": "originals/xia_seated_sheet.png",
+      "source_relative_path": "originals/xia_seated_sheet.png",
+      "prompt": "Use case: identity-preserve. Image 1 is an identity reference for original fictional adult Xia Yining, 28. Preserve exactly her facial identity, brown eyes, subtle freckles, side-part shoulder-length straight black hair, navy overshirt rolled sleeves, ivory tee, silver star necklace, charcoal trousers. Create photoreal TRUE TRANSPARENT sprite sheet 1536x1024, THREE equal separate vertical panels, no dividers no text. Same adult woman same scale same SEATED pose in all three: sitting naturally upright on a simple small backless wooden stool, knees together angled slightly right, both hands relaxed together on lap, whole head and both hands visible; medium three-quarter head-to-below-knees framing. Figure and stool fit completely within each third with generous transparent gutters, no overlap. Left expression attentive neutral, middle gentle warm smile, right subdued sad slightly downcast eyes, no tears. Change expressions only, retain same identity, outfit, pose. Real skin texture, natural proportions and anatomically coherent hands. Photoreal cinematic 35mm still, soft rainy-city daylight, muted cool grey-blue and faint warm window reflections. Transparent alpha background, no backdrop/floor/shadow, no painted checkerboard, no illustration/anime. Allow 50px side margin in each panel, 50px top margin.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "d8683fcc7f5d43261bd3339ce59aa3279cce8063837d188c5c5992c616c0a86d",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 809967
+    },
+    {
+      "id": "xia_standing_sheet",
+      "person": "xia",
+      "kind": "originals",
+      "pose": null,
+      "expr": null,
+      "width": 1536,
+      "height": 1024,
+      "relative_path": "originals/xia_standing_sheet.png",
+      "source_relative_path": "originals/xia_standing_sheet.png",
+      "prompt": "Use case: identity-preserve. Input image is the identity reference of an ORIGINAL FICTIONAL ADULT woman, Xia Yining age 28. Preserve exactly her face, eyes, subtle freckles, side-part shoulder-length black hair, navy overshirt, ivory tee, silver star necklace, charcoal trousers. Make a high resolution photoreal transparent sprite sheet, landscape 1536x1024, THREE equal vertical panels each 512px wide, NO dividers NO text. Each panel contains the SAME woman in the SAME standing relaxed pose, front three-quarter angle toward camera with arms and both hands naturally relaxed beside hips. From whole head down to mid thighs; ALL head and hands inside each panel; clear wide transparent gutters. Left facial expression: attentive neutral. Middle: warm natural closed-mouth smile. Right: thoughtful reflective gaze. Face identity unchanged; only subtle facial expression changes. Natural proportions, realistic skin texture, photographic fabric, soft rainy-city daylight, cool grey-blue and warm window reflected light, muted 35mm cinematic photo. True transparent alpha background with no grey backdrop, no floor, no shadows, no checkerboard painted into pixels. No illustration/anime/beauty smoothing. Three separated nonoverlapping figures with identical scale and framing.",
+      "tool_provenance": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "identity_reference": "originals/xia_master.png",
+        "original_fictional_adult": true,
+        "real_person_reference": false
+      },
+      "sha256": "4ca2b8227af60d88bc592469442f9adbf8e2e4232e288662a88c1d8381c3ee5b",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 578575
+    }
+  ],
+  "qa": {
+    "contact_sheet": "originals/qa_contact_sheet.jpg",
+    "visual_review": "Reviewed all three generated pose sheets, all nine cropped sprites composited on grey, both backgrounds, both CGs alongside the identity master. Face, hair, outfit, proportions, eyes and visible hands consistent; true alpha validated.",
+    "runtime_dimensions_note": "Source sprite panels 512x1024. Preserve originals; engine can fit proportionally and pad to target 512x880.",
+    "backgrounds_cg_note": "Generated images retain native 16:9 dimensions. Engine may resize proportionally for runtime."
+  }
+}

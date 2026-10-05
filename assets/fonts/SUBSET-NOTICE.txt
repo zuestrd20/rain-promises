@@ -1,0 +1,19 @@
+Rain Promises CJK Subset — Modified font, SIL Open Font License 1.1.
+
+Derived from Noto Sans CJK TC. Original embedded copyright:
+© 2014-2021 Adobe (http://www.adobe.com/).
+The original license and packaging copyright notices are preserved in LICENSE.txt.
+
+This modified font retains every supported Unicode character used by the complete
+story, choices, collectible descriptions, ending descriptions, interface and fixed
+error messages, plus printable ASCII. The game has no user-entered text fields.
+No required character was omitted. Glyph outlines were not changed.
+
+The modified family and PostScript/CFF names are renamed to
+Rain Promises CJK Subset / RainPromisesCJKSubset-Regular.
+This avoids using any original primary or reserved font name for the derivative.
+The original complete font is retained at provenance/font/NotoSansCJKtc.otf.
+The font remains under SIL OFL 1.1 and is not covered by the project's MIT license.
+No endorsement by the original authors is implied.
+
+Reproduce using tools/compact_assets.py with fonttools.

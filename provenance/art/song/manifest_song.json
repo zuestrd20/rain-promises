@@ -1,0 +1,381 @@
+{
+  "character": "song",
+  "name": "宋若安",
+  "age": 31,
+  "style": "Photoreal cinematic natural skin/proportions, muted 35mm rainy-city light",
+  "assets": [
+    {
+      "asset_id": "song_action_determined",
+      "kind": "characters",
+      "pose": "action",
+      "expression": "determined",
+      "relative_path": "characters/song_action_determined.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "ca480125f3042c9d74ae530fe8f74a4be398459cf7d75bd27a8dffd7a569cb88",
+      "prompt": "Use case identity-preserve. Input image is fixed identity and clothing reference. Photorealistic adult romance game sprite sheet THREE equally spaced full-body cutout photos in 3 equal-width panels across wide 1536x1024 canvas. EXACT SAME fictional 31-year-old East Asian woman in every panel matching reference face, deep brown eyes, chestnut low bun, burgundy cardigan, slate blue blouse, black trousers, silver wristwatch, black shoes. Cinematic 35mm natural skin/proportions, soft diffuse daylight. ACTION pose: standing body angled slightly, holding a small CLOSED dark umbrella upright by her side with one hand, other hand gesturing naturally. LEFT expression neutral attentive, CENTER surprised with widened eyes and parted lips, RIGHT quietly determined steady gaze. Entire head hands umbrella and shoes must fit WITH margins inside their panel; no cropping, no overlap. True transparent background alpha everywhere except three people and closed umbrellas. No floor, cast shadows, environment, halo, glow, text, grid or borders. Preserve reference likeness and costume. No anime, illustration, CGI or plastic skin.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_action_neutral",
+      "kind": "characters",
+      "pose": "action",
+      "expression": "neutral",
+      "relative_path": "characters/song_action_neutral.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "ba2a71dc6d5ebc1cea38f93a33c297bcb4f22168f7170e063b5c3038096e9584",
+      "prompt": "Use case identity-preserve. Input image is fixed identity and clothing reference. Photorealistic adult romance game sprite sheet THREE equally spaced full-body cutout photos in 3 equal-width panels across wide 1536x1024 canvas. EXACT SAME fictional 31-year-old East Asian woman in every panel matching reference face, deep brown eyes, chestnut low bun, burgundy cardigan, slate blue blouse, black trousers, silver wristwatch, black shoes. Cinematic 35mm natural skin/proportions, soft diffuse daylight. ACTION pose: standing body angled slightly, holding a small CLOSED dark umbrella upright by her side with one hand, other hand gesturing naturally. LEFT expression neutral attentive, CENTER surprised with widened eyes and parted lips, RIGHT quietly determined steady gaze. Entire head hands umbrella and shoes must fit WITH margins inside their panel; no cropping, no overlap. True transparent background alpha everywhere except three people and closed umbrellas. No floor, cast shadows, environment, halo, glow, text, grid or borders. Preserve reference likeness and costume. No anime, illustration, CGI or plastic skin.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_action_surprised",
+      "kind": "characters",
+      "pose": "action",
+      "expression": "surprised",
+      "relative_path": "characters/song_action_surprised.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "1f445be0af96bd4561a1ee3b3ba415ecf9c59fe9175977ad9b4e242c8ea169be",
+      "prompt": "Use case identity-preserve. Input image is fixed identity and clothing reference. Photorealistic adult romance game sprite sheet THREE equally spaced full-body cutout photos in 3 equal-width panels across wide 1536x1024 canvas. EXACT SAME fictional 31-year-old East Asian woman in every panel matching reference face, deep brown eyes, chestnut low bun, burgundy cardigan, slate blue blouse, black trousers, silver wristwatch, black shoes. Cinematic 35mm natural skin/proportions, soft diffuse daylight. ACTION pose: standing body angled slightly, holding a small CLOSED dark umbrella upright by her side with one hand, other hand gesturing naturally. LEFT expression neutral attentive, CENTER surprised with widened eyes and parted lips, RIGHT quietly determined steady gaze. Entire head hands umbrella and shoes must fit WITH margins inside their panel; no cropping, no overlap. True transparent background alpha everywhere except three people and closed umbrellas. No floor, cast shadows, environment, halo, glow, text, grid or borders. Preserve reference likeness and costume. No anime, illustration, CGI or plastic skin.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_seated_neutral",
+      "kind": "characters",
+      "pose": "seated",
+      "expression": "neutral",
+      "relative_path": "characters/song_seated_neutral.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "d415703bf45ef1bd1b887b0df3e2ae00e7b54ac8d1184a902714b5cf32896e44",
+      "prompt": "Use case identity-preserve. Input image is the fixed face and clothing reference. Create a photorealistic adult romance game sprite sheet with THREE equal-width vertical panels across a wide 1536x1024 PNG. EXACT SAME fictional 31-year-old East Asian woman from reference in every panel, same mature face and chestnut low bun, burgundy cardigan, slate blue blouse, black trousers, silver wristwatch and black shoes. Natural skin, realistic cinematic 35mm photography with soft diffused light, muted colors, no anime or illustration. Complete body including head, hands and feet with 5% safe margin, no figure crosses panel boundary. GENUINE TRANSPARENT alpha outside the people/props: no environment, no shadow, no halo or glow. No borders or text. SEATED pose in all three panels, resting on a simple compact wood stool (include stool as cutout), relaxed natural adult proportions, hands resting on lap. Left neutral listening expression. Center gentle warm smile. Right quietly sad but composed facial expression, looking toward camera with eyes slightly down, no tears. All panels keep same identity and clothing.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_seated_sad",
+      "kind": "characters",
+      "pose": "seated",
+      "expression": "sad",
+      "relative_path": "characters/song_seated_sad.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "ee17f5f641079afdd9887c496f77dc2a0d02affd259b85f4284b29844944c2e5",
+      "prompt": "Use case identity-preserve. Input image is the fixed face and clothing reference. Create a photorealistic adult romance game sprite sheet with THREE equal-width vertical panels across a wide 1536x1024 PNG. EXACT SAME fictional 31-year-old East Asian woman from reference in every panel, same mature face and chestnut low bun, burgundy cardigan, slate blue blouse, black trousers, silver wristwatch and black shoes. Natural skin, realistic cinematic 35mm photography with soft diffused light, muted colors, no anime or illustration. Complete body including head, hands and feet with 5% safe margin, no figure crosses panel boundary. GENUINE TRANSPARENT alpha outside the people/props: no environment, no shadow, no halo or glow. No borders or text. SEATED pose in all three panels, resting on a simple compact wood stool (include stool as cutout), relaxed natural adult proportions, hands resting on lap. Left neutral listening expression. Center gentle warm smile. Right quietly sad but composed facial expression, looking toward camera with eyes slightly down, no tears. All panels keep same identity and clothing.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_seated_smile",
+      "kind": "characters",
+      "pose": "seated",
+      "expression": "smile",
+      "relative_path": "characters/song_seated_smile.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "7be203469949df6c02a2e75fc7fedbc8ad125d413b1fac70a131f611b7c04d73",
+      "prompt": "Use case identity-preserve. Input image is the fixed face and clothing reference. Create a photorealistic adult romance game sprite sheet with THREE equal-width vertical panels across a wide 1536x1024 PNG. EXACT SAME fictional 31-year-old East Asian woman from reference in every panel, same mature face and chestnut low bun, burgundy cardigan, slate blue blouse, black trousers, silver wristwatch and black shoes. Natural skin, realistic cinematic 35mm photography with soft diffused light, muted colors, no anime or illustration. Complete body including head, hands and feet with 5% safe margin, no figure crosses panel boundary. GENUINE TRANSPARENT alpha outside the people/props: no environment, no shadow, no halo or glow. No borders or text. SEATED pose in all three panels, resting on a simple compact wood stool (include stool as cutout), relaxed natural adult proportions, hands resting on lap. Left neutral listening expression. Center gentle warm smile. Right quietly sad but composed facial expression, looking toward camera with eyes slightly down, no tears. All panels keep same identity and clothing.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_standing_neutral",
+      "kind": "characters",
+      "pose": "standing",
+      "expression": "neutral",
+      "relative_path": "characters/song_standing_neutral.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "92e01397ed66b2fd75b523ab02acef351abaeb7692e59842d16bba1e164ce0e4",
+      "prompt": "Use case identity-preserve. Input image is identity and clothing reference ONLY. Create a photorealistic game character sprite sheet, THREE equal-width vertical panels across one wide 1536x1024 PNG. All three show EXACT SAME 31-year-old fictional East Asian woman from reference, same face, hair low bun, burgundy cardigan, slate blue blouse, black trousers, silver watch. Preserve cinematic realistic photography and natural skin, do NOT paint or cartoon. Each panel shows complete STANDING body head to black shoes, hands relaxed naturally, margin on every side; no cropping, no figure crosses panel boundary. Left: neutral attentive face. Middle: gentle warm smile. Right: thoughtful slightly tilted head, one hand at chin naturally. GENUINE TRANSPARENT ALPHA outside silhouette: no environment, no glow, no gradient, no fog, no cast shadow, no white/gray/checkerboard pixels, no background halo of any kind. Do not reproduce reference's background glow; all pixels outside figures fully transparent. No borders or text. Three individual full-length cutout photographs with clean edges.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_standing_smile",
+      "kind": "characters",
+      "pose": "standing",
+      "expression": "smile",
+      "relative_path": "characters/song_standing_smile.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "cf5c8468b798fd3f9b863b7c703359064c5ce4782db623c24d4e08d5a6c131a0",
+      "prompt": "Use case identity-preserve. Input image is identity and clothing reference ONLY. Create a photorealistic game character sprite sheet, THREE equal-width vertical panels across one wide 1536x1024 PNG. All three show EXACT SAME 31-year-old fictional East Asian woman from reference, same face, hair low bun, burgundy cardigan, slate blue blouse, black trousers, silver watch. Preserve cinematic realistic photography and natural skin, do NOT paint or cartoon. Each panel shows complete STANDING body head to black shoes, hands relaxed naturally, margin on every side; no cropping, no figure crosses panel boundary. Left: neutral attentive face. Middle: gentle warm smile. Right: thoughtful slightly tilted head, one hand at chin naturally. GENUINE TRANSPARENT ALPHA outside silhouette: no environment, no glow, no gradient, no fog, no cast shadow, no white/gray/checkerboard pixels, no background halo of any kind. Do not reproduce reference's background glow; all pixels outside figures fully transparent. No borders or text. Three individual full-length cutout photographs with clean edges.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_standing_thoughtful",
+      "kind": "characters",
+      "pose": "standing",
+      "expression": "thoughtful",
+      "relative_path": "characters/song_standing_thoughtful.png",
+      "dimensions": [
+        512,
+        880
+      ],
+      "mode": "RGBA",
+      "sha256": "9bdb8cedc8e19b425cd4cfb3bee5093ff394b43b7b834b6906549928475a0a0b",
+      "prompt": "Use case identity-preserve. Input image is identity and clothing reference ONLY. Create a photorealistic game character sprite sheet, THREE equal-width vertical panels across one wide 1536x1024 PNG. All three show EXACT SAME 31-year-old fictional East Asian woman from reference, same face, hair low bun, burgundy cardigan, slate blue blouse, black trousers, silver watch. Preserve cinematic realistic photography and natural skin, do NOT paint or cartoon. Each panel shows complete STANDING body head to black shoes, hands relaxed naturally, margin on every side; no cropping, no figure crosses panel boundary. Left: neutral attentive face. Middle: gentle warm smile. Right: thoughtful slightly tilted head, one hand at chin naturally. GENUINE TRANSPARENT ALPHA outside silhouette: no environment, no glow, no gradient, no fog, no cast shadow, no white/gray/checkerboard pixels, no background halo of any kind. Do not reproduce reference's background glow; all pixels outside figures fully transparent. No borders or text. Three individual full-length cutout photographs with clean edges.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "gallery",
+      "kind": "backgrounds",
+      "pose": null,
+      "expression": null,
+      "relative_path": "backgrounds/gallery.jpg",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "sha256": "9d5667675b25dceda5833570fb011dfa6e2d00ad848eef33d04db32b4adc34be",
+      "prompt": "Use case photorealistic-natural. A wide 16:9 cinematic photograph of a small contemporary city photography exhibition gallery at dusk. Empty intimate modern gallery, quiet pale plaster walls, warm wooden floor, simple benches, neatly hung photographic landscape prints, tall windows reveal a rainy blue-gray urban evening. Warm restrained track lights on artworks mix with soft cool natural window light. Tasteful unbranded architectural photography, authentic materials, low saturation 35mm film aesthetic, gentle welcoming romantic atmosphere. NO PEOPLE, no readable labels or exhibition text, no logos, no watermarks. Landscape photographic prints have no faces. Spacious foreground suitable for compositing game characters, calm lower third. 1600x900 intended composition. Not illustration, not anime, not CGI.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": null
+    },
+    {
+      "asset_id": "station",
+      "kind": "backgrounds",
+      "pose": null,
+      "expression": null,
+      "relative_path": "backgrounds/station.jpg",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "sha256": "1e51b5f86e222cd07e688e816b8c8d198f17b42d1783c202cdb2e65b08a6d95e",
+      "prompt": "Use case photorealistic-natural. A wide 16:9 cinematic photographic establishing shot for an adult contemporary romance visual novel: a peaceful urban train and bus interchange platform after rain at night. Empty covered platform, glass canopy with droplets, warm amber lamps reflected in wet stone pavement, blue-gray city evening beyond, subtle railway tracks and distant station structures. Natural believable architecture and real material textures, low saturation, atmospheric 35mm film photography, no painterly or cartoon style. The setting feels safe and inviting. NO PEOPLE, no identifiable faces, no readable signage, no brands, no watermark, no text. Spacious center foreground for game character overlays, visually calm lower area for dialogue UI. Landscape 1600x900 intended composition.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": null
+    },
+    {
+      "asset_id": "song_rooftop",
+      "kind": "cg",
+      "pose": null,
+      "expression": null,
+      "relative_path": "cg/song_rooftop.jpg",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "sha256": "2898aeda8eadff5f316457a7787f1b68dddfff020ed16213a8a3f9977d28c331",
+      "prompt": "Use case identity-preserve. Input image is master identity reference for Song Ruo'an, a fictional 31-year-old East Asian woman. Photorealistic cinematic adult romance CG, landscape 16:9, intended 1600x900. EXACT same face, chestnut hair low bun, deep brown eyes, burgundy cardigan, slate blue blouse, black trousers and silver wristwatch. She sits comfortably on a wooden garden bench in a safe well-maintained rooftop garden at peaceful night after rain, looking toward camera with a small content smile. Natural relaxed hands together loosely on lap. Medium framing head to knees, woman slightly left of center. Beautiful planters, warm garden lamps, blue-gray city bokeh in distance. A clearly visible tall secure metal railing and solid parapet enclose the roof well behind the bench; she is seated comfortably away from edge. Ordinary calm romantic rest scene, no danger, no distress, no self-harm implications. Natural skin and proportions, subdued colors, 35mm photography, real environmental light, not drawing/anime/CGI. No other people, no readable text or brands.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_station",
+      "kind": "cg",
+      "pose": null,
+      "expression": null,
+      "relative_path": "cg/song_station.jpg",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "sha256": "d6486f46f49635defd7057ad277a4bfee60e8c5451efbd4f161d3e7c1dffc1e1",
+      "prompt": "Use case identity-preserve. Input image is master identity reference for Song Ruo'an, a fictional 31-year-old East Asian woman. Cinematic photoreal adult romance CG, landscape 16:9, 1600x900 intended. EXACT same woman's face, chestnut low bun, deep brown eyes, burgundy cardigan, slate-blue blouse, black trousers and silver wristwatch. At a covered urban station platform after rain at night, safely well back from platform edge under the canopy. She has just closed a small dark umbrella, holding its handle naturally in one hand and lightly gathering the fabric with the other, looking toward camera with a tender natural smile. Medium waist-up to three-quarter framing, woman slightly right of center, both hands visible and anatomically natural. Rain droplets on canopy, warm amber station light and soft cool city blue background, wet reflections, shallow depth of field. Natural skin texture, realistic proportions, 35mm photography, muted colors. No other people, no text or logos, no illustration, no anime, no plastic skin. Quiet hopeful connection, no medical context.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "gallery",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/gallery.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "8ec209351a3ad9ffdbe1689f9a86f23037bccde01468f9a5a40aa3be8bbea116",
+      "prompt": "Use case photorealistic-natural. A wide 16:9 cinematic photograph of a small contemporary city photography exhibition gallery at dusk. Empty intimate modern gallery, quiet pale plaster walls, warm wooden floor, simple benches, neatly hung photographic landscape prints, tall windows reveal a rainy blue-gray urban evening. Warm restrained track lights on artworks mix with soft cool natural window light. Tasteful unbranded architectural photography, authentic materials, low saturation 35mm film aesthetic, gentle welcoming romantic atmosphere. NO PEOPLE, no readable labels or exhibition text, no logos, no watermarks. Landscape photographic prints have no faces. Spacious foreground suitable for compositing game characters, calm lower third. 1600x900 intended composition. Not illustration, not anime, not CGI.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": null
+    },
+    {
+      "asset_id": "song_action_sheet",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/song_action_sheet.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "b6d86cf0036df3627b1eb0ece45276a67c5bcede057137152624f29a327dfad1",
+      "prompt": "Use case identity-preserve. Input image is fixed identity and clothing reference. Photorealistic adult romance game sprite sheet THREE equally spaced full-body cutout photos in 3 equal-width panels across wide 1536x1024 canvas. EXACT SAME fictional 31-year-old East Asian woman in every panel matching reference face, deep brown eyes, chestnut low bun, burgundy cardigan, slate blue blouse, black trousers, silver wristwatch, black shoes. Cinematic 35mm natural skin/proportions, soft diffuse daylight. ACTION pose: standing body angled slightly, holding a small CLOSED dark umbrella upright by her side with one hand, other hand gesturing naturally. LEFT expression neutral attentive, CENTER surprised with widened eyes and parted lips, RIGHT quietly determined steady gaze. Entire head hands umbrella and shoes must fit WITH margins inside their panel; no cropping, no overlap. True transparent background alpha everywhere except three people and closed umbrellas. No floor, cast shadows, environment, halo, glow, text, grid or borders. Preserve reference likeness and costume. No anime, illustration, CGI or plastic skin.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_contact_alpha_review",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/song_contact_alpha_review.jpg",
+      "dimensions": [
+        768,
+        1320
+      ],
+      "mode": "RGB",
+      "sha256": "588947e4f3e94bfd63498968d3c2427e1cf5cf9675456b73fbe4b3265b6edc16",
+      "prompt": "Mechanical alpha composite review of generated sprites",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": null
+    },
+    {
+      "asset_id": "song_master",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/song_master.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "fea8be35b65755752cfda69fbc23d50570e41452ffe55f202318316038cb7961",
+      "prompt": "Use case: photorealistic-natural. Master identity portrait for a cinematic adult romance game. A fictional 31-year-old East Asian woman, Song Ruo'an, off-duty emergency physician wearing ordinary casual clothes. Mature intelligent face, deep brown eyes, dark chestnut long hair in a low bun, deep burgundy cardigan over slate-blue blouse, black tailored trousers, simple silver wristwatch. Natural realistic facial proportions, authentic skin texture with subtle pores, gentle neutral expression, full body head to shoes visible with generous margin, arms relaxed, looking at camera. Photoreal cinematic 35mm editorial photography, soft rainy-city diffused daylight, muted colors. Single person isolated on genuinely transparent background with clean natural alpha, no floor shadow. No text, no logos, no illustration, no anime, no plastic skin, no celebrity resemblance, no medical setting.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": null
+    },
+    {
+      "asset_id": "song_rooftop",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/song_rooftop.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "0d2ca1bd47259b4baa3cf632d44d7045ccb2ccc3df8e7b634e3eccd5da4851c0",
+      "prompt": "Use case identity-preserve. Input image is master identity reference for Song Ruo'an, a fictional 31-year-old East Asian woman. Photorealistic cinematic adult romance CG, landscape 16:9, intended 1600x900. EXACT same face, chestnut hair low bun, deep brown eyes, burgundy cardigan, slate blue blouse, black trousers and silver wristwatch. She sits comfortably on a wooden garden bench in a safe well-maintained rooftop garden at peaceful night after rain, looking toward camera with a small content smile. Natural relaxed hands together loosely on lap. Medium framing head to knees, woman slightly left of center. Beautiful planters, warm garden lamps, blue-gray city bokeh in distance. A clearly visible tall secure metal railing and solid parapet enclose the roof well behind the bench; she is seated comfortably away from edge. Ordinary calm romantic rest scene, no danger, no distress, no self-harm implications. Natural skin and proportions, subdued colors, 35mm photography, real environmental light, not drawing/anime/CGI. No other people, no readable text or brands.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_seated_sheet",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/song_seated_sheet.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "5654b94f355e67b3c3d46f9d08fb8c0c71e7822622f6cefccda9b3bbcdd14fc1",
+      "prompt": "Use case identity-preserve. Input image is the fixed face and clothing reference. Create a photorealistic adult romance game sprite sheet with THREE equal-width vertical panels across a wide 1536x1024 PNG. EXACT SAME fictional 31-year-old East Asian woman from reference in every panel, same mature face and chestnut low bun, burgundy cardigan, slate blue blouse, black trousers, silver wristwatch and black shoes. Natural skin, realistic cinematic 35mm photography with soft diffused light, muted colors, no anime or illustration. Complete body including head, hands and feet with 5% safe margin, no figure crosses panel boundary. GENUINE TRANSPARENT alpha outside the people/props: no environment, no shadow, no halo or glow. No borders or text. SEATED pose in all three panels, resting on a simple compact wood stool (include stool as cutout), relaxed natural adult proportions, hands resting on lap. Left neutral listening expression. Center gentle warm smile. Right quietly sad but composed facial expression, looking toward camera with eyes slightly down, no tears. All panels keep same identity and clothing.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_standing_sheet",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/song_standing_sheet.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "f0e95bf306d2ffaf757ed76e5dbd41ae10473e43f208d287b11d9e0958fcefdb",
+      "prompt": "Use case identity-preserve. Input image is identity and clothing reference ONLY. Create a photorealistic game character sprite sheet, THREE equal-width vertical panels across one wide 1536x1024 PNG. All three show EXACT SAME 31-year-old fictional East Asian woman from reference, same face, hair low bun, burgundy cardigan, slate blue blouse, black trousers, silver watch. Preserve cinematic realistic photography and natural skin, do NOT paint or cartoon. Each panel shows complete STANDING body head to black shoes, hands relaxed naturally, margin on every side; no cropping, no figure crosses panel boundary. Left: neutral attentive face. Middle: gentle warm smile. Right: thoughtful slightly tilted head, one hand at chin naturally. GENUINE TRANSPARENT ALPHA outside silhouette: no environment, no glow, no gradient, no fog, no cast shadow, no white/gray/checkerboard pixels, no background halo of any kind. Do not reproduce reference's background glow; all pixels outside figures fully transparent. No borders or text. Three individual full-length cutout photographs with clean edges.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "song_station",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/song_station.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "a3afc5956bef753193d34532a34d65231a856d173fce1c8b0476c5f4b83574bc",
+      "prompt": "Use case identity-preserve. Input image is master identity reference for Song Ruo'an, a fictional 31-year-old East Asian woman. Cinematic photoreal adult romance CG, landscape 16:9, 1600x900 intended. EXACT same woman's face, chestnut low bun, deep brown eyes, burgundy cardigan, slate-blue blouse, black trousers and silver wristwatch. At a covered urban station platform after rain at night, safely well back from platform edge under the canopy. She has just closed a small dark umbrella, holding its handle naturally in one hand and lightly gathering the fabric with the other, looking toward camera with a tender natural smile. Medium waist-up to three-quarter framing, woman slightly right of center, both hands visible and anatomically natural. Rain droplets on canopy, warm amber station light and soft cool city blue background, wet reflections, shallow depth of field. Natural skin texture, realistic proportions, 35mm photography, muted colors. No other people, no text or logos, no illustration, no anime, no plastic skin. Quiet hopeful connection, no medical context.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": "originals/song_master.png"
+    },
+    {
+      "asset_id": "standing_alpha_review",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/standing_alpha_review.jpg",
+      "dimensions": [
+        900,
+        600
+      ],
+      "mode": "RGB",
+      "sha256": "cb029e15df6637ff107a94bbc44f335be0b1bcb0284766512ab17d62c684d633",
+      "prompt": "Mechanical alpha composite review of generated sprites",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": null
+    },
+    {
+      "asset_id": "station",
+      "kind": "originals",
+      "pose": null,
+      "expression": null,
+      "relative_path": "originals/station.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "47e86f33051607ab53db6db849f0e4d6414c277abed98488b791f09c20d1e10e",
+      "prompt": "Use case photorealistic-natural. A wide 16:9 cinematic photographic establishing shot for an adult contemporary romance visual novel: a peaceful urban train and bus interchange platform after rain at night. Empty covered platform, glass canopy with droplets, warm amber lamps reflected in wet stone pavement, blue-gray city evening beyond, subtle railway tracks and distant station structures. Natural believable architecture and real material textures, low saturation, atmospheric 35mm film photography, no painterly or cartoon style. The setting feels safe and inviting. NO PEOPLE, no identifiable faces, no readable signage, no brands, no watermark, no text. Spacious center foreground for game character overlays, visually calm lower area for dialogue UI. Landscape 1600x900 intended composition.",
+      "tool": "image_gen.imagegen built-in; Pillow only for noncreative crop/resize/alpha composite",
+      "identity_reference": null
+    }
+  ],
+  "review": {
+    "sprite_alpha": "All nine RGBA images composited over green and visually inspected. Fully transparent outer background, no rectangular matte, heads/hands/feet complete. Hidden RGB in transparent pixels is not visible on composite.",
+    "identity": "All sprite sheets and both CGs use same master. Face, low bun and clothing visually consistent.",
+    "cg_safety": "Rooftop shows bench set back from a solid parapet and tall protective railing; ordinary relaxed rest."
+  }
+}
